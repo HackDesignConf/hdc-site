@@ -7,13 +7,13 @@ permalink: /:title.html
 
 # Conference info
 conf:
-  name: "Hack e Design Conf"
+  name: ""
   description: "Conference description"
-  date: "November 15"
+  date: ""
   price: "$100"
   address: "Pça 15 de novembro,20 centro,Brazil"
-  venue: "Bolsa de Valores"
-  city: "Rio de Janeiro"
+  venue: ""
+  city: ""
 
 # Site info
 site:

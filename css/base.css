@@ -35,6 +35,7 @@ p {
    NAVIGATION
    ========================================================================== */
 nav {
+ 
   padding:15px 0;
   position: fixed;
   width: 100%;
@@ -51,7 +52,7 @@ nav {
    ========================================================================== */
 .header {
   padding: 100px 0 100px;
-  text-align:center;
+  text-align:right;
 }
 .logo-name {
   margin-bottom: 0;
@@ -70,7 +71,7 @@ nav {
 }
 .call-action-area .call-action-link, .btn {
   position:relative;
-  top:-5px;
+  top:130px;
   cursor: pointer;
   display: inline-block;
   padding: 15px 30px;
