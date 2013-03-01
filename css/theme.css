@@ -37,8 +37,8 @@ nav {background: #D92727;}
   
 }
 .logo-link, .tagline, .call-action-area .price {
-  color:#fff;
-  text-shadow: 1px 2px 1px rgba(0,0,0,.3);
+  color:black;
+  text-align: left;
 }
 .tagline {font-weight: normal;}
 .call-action-area {
@@ -69,6 +69,9 @@ nav {background: #D92727;}
 /* =============================================================================
    ABOUT
    ========================================================================== */
+#about {
+  padding-top: 0;
+}
 .about {
   border:1px solid #e7e7e7;
   background:#fff;
