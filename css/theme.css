@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5, h6 {color:#2b2b2b;}
 /* =============================================================================
    NAVIGATION
    ========================================================================== */
-nav {background: #2b2b2b;}
+nav {background: #D92727;}
 .nav-link {color:#e7e7e7;}
 .nav-link:active,
 .nav-link:hover,
@@ -32,6 +32,8 @@ nav {background: #2b2b2b;}
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: 100% auto;
+  background: white;
+
   
 }
 .logo-link, .tagline, .call-action-area .price {
@@ -39,6 +41,9 @@ nav {background: #2b2b2b;}
   text-shadow: 1px 2px 1px rgba(0,0,0,.3);
 }
 .tagline {font-weight: normal;}
+.call-action-area {
+  display: none;
+}
 .call-action-area .price {color:#fddd52; position:relative; top:145px;}
 .call-action-area .call-action-link, .btn {
   background-color: #fddd52;
@@ -83,6 +88,7 @@ nav {background: #2b2b2b;}
 /* =============================================================================
    SPEAKER
    ========================================================================== */
+#speakers {display: none;}
 .speaker-photo .photo {
   border-radius: 50%;
   box-shadow: 0 0 0 8px rgba(0,0,0,.07);
@@ -102,6 +108,7 @@ nav {background: #2b2b2b;}
 /* =============================================================================
    SCHEDULE
    ========================================================================== */
+#schedule {display: none;}
 .schedule-tbl {
   background:#fff;
   border:1px solid #ccc;
