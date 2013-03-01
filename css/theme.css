@@ -47,7 +47,16 @@ h1.logo-name span {
   color:black;
   text-align: left;
 }
-.tagline {font-weight: normal;}
+
+.tagline {
+  font-weight: normal;
+  margin-top: 40px;
+  color: #555555;
+  font-size: 1.8em;
+  text-align: center;
+}
+
+
 .call-action-area {
   display: none;
 }
