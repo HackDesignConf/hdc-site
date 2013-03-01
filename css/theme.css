@@ -3,7 +3,7 @@
    ========================================================================== */
 html {
  
-  background:#EBEBEB;
+  background:#8F8A8A;
   font:normal normal 10px/1.2em helvetica, arial, sans-serif;
   color:#777;
 }
@@ -16,7 +16,11 @@ h1, h2, h3, h4, h5, h6 {color:#2b2b2b;}
 /* =============================================================================
    NAVIGATION
    ========================================================================== */
+<<<<<<< HEAD
 nav {background: #D92727;}
+=======
+nav {background: #red;}
+>>>>>>> minor changes
 .nav-link {color:#e7e7e7;}
 .nav-link:active,
 .nav-link:hover,
