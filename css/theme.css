@@ -27,14 +27,21 @@ nav {background: #D92727;}
    HEADER
    ========================================================================== */
 .header {
-  
-
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: 100% auto;
   background: white;
+}
 
-  
+.logo-name {
+  margin-top: 0;
+}
+h1.logo-name {
+  text-align: center;
+}
+
+h1.logo-name span {
+  color: #D92727;
 }
 .logo-link, .tagline, .call-action-area .price {
   color:black;
