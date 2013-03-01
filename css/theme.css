@@ -31,6 +31,7 @@ nav {background: #D92727;}
   background-position: center bottom;
   background-size: 100% auto;
   background: white;
+  padding: 100px 0px 40px;
 }
 
 .logo-name {
@@ -54,6 +55,7 @@ h1.logo-name span {
   color: #555555;
   font-size: 1.8em;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 
@@ -185,4 +187,55 @@ h1.logo-name span {
     background: transparent;
     font-weight: bolder;
   }
+}
+
+
+
+/* =============================================================================
+   MailChimp
+   ========================================================================== */
+
+
+form#mc-embedded-subscribe-form {
+  background: #faf7f7;
+  width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 6px;
+  border: 1px solid #f5f1f1;
+}
+
+.email {
+  border: medium none;
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    font-size: 15px;
+    margin: 0 0 15px;
+    max-width: 340px;
+    padding: 10px 40px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    margin-right: 0;
+    background: white;
+}
+.button {
+    background: none repeat scroll 0 0 #D92727;
+    border: medium none;
+    border-radius: 5px 5px 5px 5px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 15px;
+    margin: 0;
+    padding: 10px 0;
+    width: 150px;
+    margin-left: -60px;
+}
+input.button {
+  margin-left: -40px;
+}
+
+input:invalid, textarea:invalid {
+    background-color: #fff;
+    border: 1px solid #edeaea;
 }
