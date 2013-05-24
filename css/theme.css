@@ -315,12 +315,5 @@ input:invalid, textarea:invalid {
   margin:50px;
 }
 
-.backcolor{
-  width:100%;
-  background:green;
-}
 
-footer{
-  background:red;
-  width:100%;
-}
+
