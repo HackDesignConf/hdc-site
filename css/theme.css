@@ -310,10 +310,51 @@ input:invalid, textarea:invalid {
 .image-box:hover {border-color:#bbb}
 .image-box:hover .image-container {margin-top:-160px}
 .image-details .more:hover {background-color:black}
-
+/* =============================================================================
+   ABOUT //TROCAR DEPOIS//
+   ========================================================================== */
 .thumbnails{
-  margin:50px;
+  margin-left:50px;
 }
 
+.date{
+  float: right;
+  margin:10px;
+  margin-right:150px;
+  margin-top:-10px;
+}
+.date h4{
+  font-size: 20px;
+  color:#555555;
+}
+.background{
+  width:100px;
+  height:30px;
+}
+/* =============================================================================
+   footer
+   ========================================================================== */
+.footer{
+  width:100%;
+  background:#d92727;
+  height:300px;
+}
 
+.offer{
+  float: left;
+  width: 400px;
+  display: block;
+  background: #d92727;
+  text-align: center;
+  border-radius: 8px;
+  color: #fff;
+  padding: 20px 0;
+  font: 20px tahoma;
+  margin-left: 55px;
+
+}
+
+.offer:hover{
+  opacity:0.7;
+}
 
