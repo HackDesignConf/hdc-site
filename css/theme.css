@@ -104,6 +104,7 @@ h1.logo-name span {
   border: 1px solid #ccc;
   border-radius: 4px;
   height: 300px;
+
 }
 
 /* =============================================================================
@@ -357,4 +358,27 @@ input:invalid, textarea:invalid {
 .offer:hover{
   opacity:0.7;
 }
+/* =============================================================================
+   Description
+   ========================================================================== */
+.description{
+
+  margin: 5px;
+  width: 100%;
+  background: #fbfbfb;
+  float: left;
+ } 
+
+
+
+.photos{
+
+  margin: 5px;
+  width: 200px;
+  float: left;
+  
+  
+  border-radius:250px;
+  }
+
 
