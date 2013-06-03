@@ -361,24 +361,6 @@ input:invalid, textarea:invalid {
 /* =============================================================================
    Description
    ========================================================================== */
-.description{
 
-  margin: 5px;
-  width: 100%;
-  background: #fbfbfb;
-  float: left;
- } 
-
-
-
-.photos{
-
-  margin: 5px;
-  width: 200px;
-  float: left;
-  
-  
-  border-radius:250px;
-  }
 
 
