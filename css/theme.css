@@ -355,8 +355,12 @@ input:invalid, textarea:invalid {
   opacity:0.7;
 }
 /* =============================================================================
-   CHEDULE
+   APOIOS COMUNIDADES
    ========================================================================== */
 
-
+.imageslogo{
+  margin-left:30px;
+  float:left;
+  padding:10px;
+}
 
