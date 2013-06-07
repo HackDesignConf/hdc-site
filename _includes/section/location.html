@@ -1,15 +1,26 @@
 {% if site.sections.location %}
+</div>
 
+<div class="locbg">
+  <div class="wrapper">
   <!-- LOCATION -->
   <section class="location" id="location">
+    <div class="bginfo">
     <h2 class="section-title">Onde será?</h2>
 
     {% if site.conf.address != '' %}
       <p>O evento está previsto para acontecer no prédio da Bolsa de Valores Número 19      .</p>
-      <iframe width="980" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.br/maps/ms?msa=0&amp;msid=210336802047897660893.0004de834abf830afb33c&amp;gl=br&amp;ie=UTF8&amp;ll=-22.902482,-43.174212&amp;spn=0,0&amp;t=m&amp;iwloc=0004de834e36cc445d284&amp;output=embed"></iframe><br /><small>Ver <a href="https://maps.google.com.br/maps/ms?msa=0&amp;msid=210336802047897660893.0004de834abf830afb33c&amp;gl=br&amp;ie=UTF8&amp;ll=-22.902482,-43.174212&amp;spn=0,0&amp;t=m&amp;iwloc=0004de834e36cc445d284&amp;source=embed" style="color:#0000FF;text-align:left">Hack &amp; Design Conf</a> num mapa maior</small>
+    </div>
+    </div>
+    <!--iframe width="100%" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=pt-BR&amp;geocode=&amp;q=Pra%C3%A7a+Quinze+de+Novembro,+20,+Rio+de+Janeiro,+Rep%C3%BAblica+Federativa+do+Brasil&amp;aq=0&amp;oq=%5CPra%C3%A7a+Quinze+de+Novembro,+20+&amp;sll=-23.545759,-46.634632&amp;sspn=0.080101,0.184708&amp;ie=UTF8&amp;hq=&amp;hnear=Pra%C3%A7a+Quinze+de+Novembro,+20+-+Centro,+Rio+de+Janeiro,+20010-010,+Rep%C3%BAblica+Federativa+do+Brasil&amp;t=m&amp;ll=-22.906855,-43.197641&amp;spn=0.035578,0.077248&amp;z=14&amp;output=embed"></iframe><br /-->
+    
+    <iframe style="overflow:hidden" width="100%" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.br/maps/ms?msa=0&amp;msid=210336802047897660893.0004de834abf830afb33c&amp;gl=br&amp;ie=UTF8&amp;ll=-22.902482,-43.174212&amp;spn=0,0&amp;t=m&amp;iwloc=near&addr&amp;output=embed"></iframe>
+      
+      <!--<br /><small>Ver <a href="https://maps.google.com.br/maps/ms?msa=0&amp;msid=210336802047897660893.0004de834abf830afb33c&amp;gl=br&amp;ie=UTF8&amp;ll=-22.902482,-43.174212&amp;spn=0,0&amp;t=m&amp;iwloc=0004de834e36cc445d284&amp;source=embed" style="color:#0000FF;text-align:left">Hack &amp; Design Conf</a> num mapa maior</small> -->
     {% endif %}
 
   </section>
+</div>
   <!-- / LOCATION -->
 
 {% endif %}
