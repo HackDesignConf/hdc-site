@@ -16,8 +16,14 @@ h1, h2, h3, h4, h5, h6 {color:#2b2b2b;}
    NAVIGATION
    ========================================================================== */
 
-nav {background: #D92727;}
-.nav-link {color:#e7e7e7;}
+nav {
+    background: none repeat scroll 0 0 #F16521;
+    border-bottom: 2px solid #6C2A12;
+    border-top: 1px solid #6C2A12;
+    box-shadow: 0 -7px 37px -8px rgba(0, 0, 0, 0.42) inset;
+    color: white;
+}
+.nav-link {color:#fff;}
 .nav-link:active,
 .nav-link:hover,
 .nav-link:focus,
@@ -31,7 +37,24 @@ nav {background: #D92727;}
   background-position: center bottom;
   background-size: 100% auto;
   background: white;
-  padding: 100px 0px 40px;
+  padding: 100px 0 0;
+  background:url("../img/bg.jpg");
+}
+
+.faixa {
+    background: none repeat scroll 0 0 #AB3801;
+    float: left;
+    padding-top: 1em;
+    width: 100%;
+}
+
+.altinha{
+  margin-bottom: 3em;
+}
+
+.logo{
+    float: left;
+    width: 50%;
 }
 
 .logo-name {
@@ -50,14 +73,15 @@ h1.logo-name span {
 }
 
 .tagline {
-  font-weight: normal;
-  margin-top: 40px;
-  color: #555555;
-  font-size: 1.8em;
-  text-align: center;
-  margin-bottom: 30px;
+    color: WHITE;
+    float: left;
+    font-size: 1.8em;
+    font-weight: lighter;
+    margin-bottom: 30px;
+    margin-left: 2em;
+    margin-top: 40px;
+    width: 45%;
 }
-
 
 .call-action-area {
   display: none;
@@ -318,16 +342,34 @@ input:invalid, textarea:invalid {
   margin-left:50px;
 }
 
-.date{
-  float: right;
-  margin: 10px;
-  margin-right: 150px;
-  margin-top: -10px;
+.date {
+    background: url("../img/calendar.png") no-repeat scroll 0 0 transparent;
+    color: white;
+    float: left;
+    font-size: 20px;
+    font-weight: 100;
+    height: 43px;
+    padding-left: 51px;
+    padding-top: 18px;
+    text-align: left;
+    width: 12%;
+    margin-top: 10px;
 }
-.date h4{
-  font-size: 20px;
-  color: #555555;
+.local {
+    background: url("../img/local.png") no-repeat scroll 0 0 transparent;
+    color: white;
+    float: left;
+    font-size: 20px;
+    font-weight: 100;
+    height: 43px;
+    margin-left: 1em;
+    padding-left: 40px;
+    padding-top: 18px;
+    text-align: left;
+    width: 21%;
+    margin-top: 10px;
 }
+
 /* =============================================================================
    footer
    ========================================================================== */
@@ -337,18 +379,18 @@ input:invalid, textarea:invalid {
   height: 300px;
 }
 
-.offer{
-  float: left;
-  width: 400px;
-  display: block;
-  background: #d92727;
-  text-align: center;
-  border-radius: 8px;
-  color: #fff;
-  padding: 20px 0;
-  font: 20px tahoma;
-  margin-left: 55px;
-
+.offer {
+    background: none repeat scroll 0 0 #FF8D1D;
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: 0 10px 7px -6px rgba(0, 0, 0, 0.8);
+    color: white;
+    display: block;
+    float: right;
+    font: 20px tahoma;
+    margin-left: 55px;
+    padding: 16px 0;
+    text-align: center;
+    width: 400px;
 }
 
 .offer:hover{
