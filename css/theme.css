@@ -438,5 +438,11 @@ input:invalid, textarea:invalid {
   float: left;
   padding: 10px;
 }
+h1{
+  color:orange;
+  font-size: 20px;
+ 
+  text-align:center;
+}
 
 
