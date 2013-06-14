@@ -363,6 +363,11 @@ nav {
 }
 
 @media only screen and (max-width : 480px) {
+  
+  .bginfo{
+    width:90%;
+  }
+  
   .logo{
      /* float: left; */
       width: 100%;
