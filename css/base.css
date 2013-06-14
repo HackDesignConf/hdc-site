@@ -435,7 +435,7 @@ nav {
 }
 
 .cover-mailing-page{
-  background: url("/img/mailing-cover-bg.jpg") repeat-x left top;
+  background: url("img/mailing-cover-bg.jpg") repeat-x left top;
 }
 
 #cover {
@@ -444,7 +444,7 @@ nav {
 }
 
 .mailing-form {
-  background-image: url("/img/mailing-mauro.png");
+  background-image: url("img/mailing-mauro.png");
   background-position: left 40px;
   background-repeat: no-repeat;
   padding-left: 200px;
