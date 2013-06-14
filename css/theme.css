@@ -115,10 +115,18 @@ h1.logo-name span {
   padding-top: 0;
 }
 .about {
-  border:1px solid #e7e7e7;
-  background:#fff;
-  border-radius:4px;
-  box-shadow:0 0 15px -5px rgba(0, 0, 0, 0.6);
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #E7E7E7;
+    border-radius: 0 0 270px 0;
+    box-shadow: 0 0 15px -5px rgba(0, 0, 0, 0.6);
+}
+
+.titulosobre{
+  border-left: 25px solid #FF8D1D;
+  line-height: 0.9;
+  margin-left: -20px;
+  padding-left: 10px;
+  padding-top: 5px;
 }
 
 /* =============================================================================
