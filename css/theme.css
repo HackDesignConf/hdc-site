@@ -290,10 +290,10 @@ form#mc-embedded-subscribe-form {
     margin: 0;
     padding: 10px 0;
     width: 150px;
-    margin-left: -60px;
+    margin-left: 50px;
 }
 input.button {
-  margin-left: -40px;
+  margin-left: -120px;
 }
 
 input:invalid, textarea:invalid {
