@@ -432,7 +432,73 @@ nav {
     padding: 0;
   }
   .speakers-bio {display: none;}
-} 
+}
+
+.cover-mailing-page{
+  background: url("/img/mailing-cover-bg.jpg") repeat-x left top;
+}
+
+#cover {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.mailing-form {
+  background-image: url("/img/mailing-mauro.png");
+  background-position: left 40px;
+  background-repeat: no-repeat;
+  padding-left: 200px;
+  padding-top: 100px;
+  height: 175px;
+}
+
+.mailing-form h2 {
+  color:#b80606;
+  font-size:29px;
+  font-weight: bold;
+  margin-top: -40px;
+  text-transform:none;
+  width:100%;
+  line-height:30px;
+  margin-bottom:35px;
+}
+
+.cover-mailing-page input[type="text"], 
+.cover-mailing-page input[type="email"] {
+    background: none repeat scroll 0 0 white;
+    border: 1px solid #C7C7C7;
+    border-radius: 6px 6px 6px 6px;
+    float: left;
+    font-size: 14px;
+    margin: 0;
+    padding: 0.7em;
+    width: 50%;
+}
+
+.mailing-form p{
+  margin-top:15px;
+}
+
+.mailing-form p a{
+  font-size:11px;
+  color:#666;
+}
+
+.cover-mailing-page input[type="submit"] {
+    background-color: #B80606;
+    border: 0 none;
+    border-radius: 6px 6px 6px 6px;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 700;
+    margin: 0.2em 0.2em 0.2em 0.3em;
+    padding: 8px;
+    text-transform: uppercase;
+}
+
+.cover-mailing-page div.containner input[type="submit"]:hover{
+  opacity:0.9;
+}
 
 /*celulares*/
 @media only screen and (max-width : 321px) {
