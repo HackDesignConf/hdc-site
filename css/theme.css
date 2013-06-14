@@ -257,46 +257,6 @@ h1.logo-name span {
    MailChimp
    ========================================================================== */
 
-
-form#mc-embedded-subscribe-form {
-  background: #faf7f7;
-  width: 600px;
-  margin: 0 auto;
-  padding: 30px;
-  border-radius: 6px;
-  border: 1px solid #ff8d1d;
-}
-
-.email {
-  border: medium none;
-    border-radius: 5px 5px 5px 5px;
-    float: left;
-    font-size: 15px;
-    margin: 0 0 15px;
-    max-width: 340px;
-    padding: 10px 40px;
-    text-align: center;
-    width: 100%;
-    margin: 0 auto;
-    margin-right: 0;
-    background: white;
-}
-.button {
-    background: none repeat scroll 0 0 #D92727;
-    border: medium none;
-    border-radius: 5px 5px 5px 5px;
-    color: #FFFFFF;
-    cursor: pointer;
-    font-size: 15px;
-    margin: 0;
-    padding: 10px 0;
-    width: 150px;
-    margin-left: 50px;
-}
-input.button {
-  margin-left: 180px;
-}
-
 input:invalid, textarea:invalid {
     background-color: #fff;
     border: 1px solid #edeaea;
