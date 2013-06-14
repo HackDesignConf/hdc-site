@@ -118,6 +118,7 @@ h1.logo-name span {
   border:1px solid #e7e7e7;
   background:#fff;
   border-radius:4px;
+  box-shadow:0 0 15px -5px rgba(0, 0, 0, 0.6);
 }
 
 /* =============================================================================
@@ -148,6 +149,7 @@ h1.logo-name span {
     text-align: center;
     top: 455px;
     width: 70%;
+    margin: 0 auto;
 }
 
 .bginfo h2 {
