@@ -264,7 +264,7 @@ form#mc-embedded-subscribe-form {
   margin: 0 auto;
   padding: 30px;
   border-radius: 6px;
-  border: 1px solid #f5f1f1;
+  border: 1px solid #ff8d1d;
 }
 
 .email {
@@ -294,7 +294,7 @@ form#mc-embedded-subscribe-form {
     margin-left: 50px;
 }
 input.button {
-  margin-left: -120px;
+  margin-left: 180px;
 }
 
 input:invalid, textarea:invalid {
