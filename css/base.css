@@ -3,10 +3,12 @@
    ========================================================================== */
 .wrapper {
   margin: 0 auto;
-  width:960px;
+  width: 80%;
   position:relative;
 }
-.content {padding-top: 50px;}
+.content {
+    padding-top: 5em;
+}
 .content section {padding-top: 50px;}
 
 /* =============================================================================
@@ -225,11 +227,60 @@ nav {
 
 
 
+
+
 /* =============================================================================
    Media Queries
    ========================================================================== */
 
-@media only screen and (max-width : 1024px) {
+@media only screen and (min-width : 1024px) {
+  .logo{
+     /* float: left; */
+      width: 50%;
+  }
+  
+  .date{
+    width: 12%;
+  }
+  
+  .local{
+    width:31%;
+    margin-left: 1em;
+    padding-left: 40px;
+    padding-top: 18px;
+    text-align: left;
+    margin-top: 10px;
+  }
+  
+  .offer{
+    width:33%;
+  }
+  
+}
+@media only screen and (min-width:800px) and  (max-width : 1024px) {
+  
+  .date{
+    width: 12%;
+  }
+  
+  .local{
+    margin-left: 1em;
+    padding-left: 40px;
+    padding-top: 18px;
+    text-align: left;
+    width: 27%;
+    margin-top: 10px;
+  }
+  
+  .offer{
+    width:33%;
+  }
+  
+  .logo{
+     /* float: left; */
+      width: 50%;
+  }
+  
   .wrapper {
     width: 100%;
     padding: 0 20px;
@@ -242,6 +293,30 @@ nav {
 }
 
 @media only screen and (min-width:320px) and (max-width : 800px) {
+  
+  .logo{
+     /* float: left; */
+      width: 80%;
+  }
+  
+  .local {
+      margin-top: 6px;
+      padding-top: 21px;
+      width: 63%;
+      padding-left: 38px;
+      text-align: left;
+  }
+  
+  .date{
+    width:20%;
+  }
+  
+  .offer{
+    width:100%;
+    margin-bottom:25px;
+  }
+
+
 
   /* schedule */
   .schedule-tbl {padding:1px;}
@@ -288,6 +363,27 @@ nav {
 }
 
 @media only screen and (max-width : 480px) {
+  .logo{
+     /* float: left; */
+      width: 100%;
+  }
+  .local {
+      margin-left: -5px;
+      padding-left: 45px;
+      padding-top: 15px;
+      text-align: left;
+      width: 100%;
+  }
+  
+  .date{
+    width:100%;
+  }
+
+  .offer{
+    width:100%;
+    margin-bottom:25px;
+  }
+  
   /* nav */
   nav {display: none;}
   .header {padding:20px 0;}
@@ -333,7 +429,14 @@ nav {
   .speakers-bio {display: none;}
 } 
 
+/*celulares*/
 @media only screen and (max-width : 321px) {
+  .date{
+    width:100%;
+  }
+  .logo{
+    width: 100%;
+  }
   .logo-name {
     font-size: 4em;
     margin-bottom:.4em;
