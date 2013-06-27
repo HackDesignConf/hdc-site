@@ -27,6 +27,7 @@ site:
 # Active sections on the website
 sections:
   about: true
+  conditions: true
   location: true
   speakers: true
   schedule: true

@@ -169,6 +169,7 @@ E por aí vai.
 ```
 sections:
   about: true
+  conditions:true
   location: true
   speakers: true
   schedule: true
