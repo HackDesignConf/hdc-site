@@ -399,9 +399,20 @@ h1{
   color:orange;
   font-size: 20px;
  
-  text-align:center;
+  text-align: center;
 }
+/* =============================================================================
+   CONDITION
+   ========================================================================== */
 .conditions{
-  margin-bottom:100px;
+  margin-bottom: 100px;
 }
+
+.politic{
+  width: 100%;
+  background: #e7e7e7;
+  text-align: center;
+
+}
+
 
