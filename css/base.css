@@ -1,6 +1,12 @@
 /* =============================================================================
    MAIN LAYOUT
    ========================================================================== */
+html {
+  background:#EBEBEB;
+  font:normal normal 10px/1.2em helvetica, arial, sans-serif;
+  color:#777;
+}
+
 .wrapper {
   margin: 0 auto;
   width: 80%;
@@ -14,6 +20,8 @@
 /* =============================================================================
    BASIC STYLES
    ========================================================================== */
+h1, h2, h3, h4, h5, h6 {color:#2b2b2b;}
+
 h2, h3, h4 {
   font-size: 5em;
   font-weight: normal;
@@ -28,9 +36,11 @@ p {
   margin-bottom: 1.4em;
 }
 .photo {
-  max-width:100%;
-  position:relative;
-  top:-1px;
+    border-radius: 250px 250px 250px 250px;
+    box-shadow: 0 19px 4px -12px;
+    max-width: 100%;
+    position: relative;
+    top: -1px;
 }
 
 /* =============================================================================
@@ -43,12 +53,21 @@ nav {
     top: 0;
     width: 100%;
     z-index: 10;
+    background: none repeat scroll 0 0 #F16521;
+    border-bottom: 2px solid #6C2A12;
+    border-top: 1px solid #6C2A12;
+    box-shadow: 0 -7px 37px -8px rgba(0, 0, 0, 0.42) inset;
+    color: white;
 }
 .nav-item {
   display: inline-block;
   margin-right:15px;
 }
-.nav-link {font-size: 1.4em;}
+.nav-link {color:#fff;font-size: 1.4em;}
+.nav-link:active,
+.nav-link:hover,
+.nav-link:focus,
+.nav-link.current {color:#fff;}
 
 /* =============================================================================
    HEADER
@@ -56,17 +75,56 @@ nav {
 .header {
   padding: 100px 0 100px;
   text-align:center;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 100% auto;
+  background: white;
+  padding: 60px 0 0;
+  background:url("../img/bg.jpg");
+  background-size:100%;
 }
 .logo-name {
   margin-bottom: 0;
   font-size: 10em;
   letter-spacing: -.04em;
+  margin-top: 0;
+}
+h1.logo-name {
+  text-align: center;
+}
+
+h1.logo-name span {
+  color: #D92727;
+}
+.logo-link, .tagline, .call-action-area .price {
+  color:black;
+  text-align: left;
 }
 .tagline {
-  margin-bottom:50px;
-  font-size: 2em;
-  letter-spacing: -.02em;
+    color: #fff;
+    float: left;
+    font-size: 1.8em;
+    font-weight: lighter;
+    margin-bottom: 30px;
+    margin-left: 2em;
+    margin-top: 40px;
+    width: 45%;
 }
+/*call-action-area {
+  display: none;
+}
+.call-action-area .price {color:#fddd52; position:relative; top:145px;}
+.call-action-area .call-action-link, .btn {
+  background-color: #fddd52;
+  background-image: -moz-linear-gradient(top, #fddd52 30%, #f0a303 150%);
+  background-image: -webkit-linear-gradient(top, #fddd52 30%, #f0a303 150%);
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#fddd52', endColorstr='#f0a303');
+  background-image: linear-gradient(top, #fddd52 30%, #f0a303 150%);
+  color:#2b2b2b;
+  text-shadow: 0 1px 0 rgba(255,255,255,.5);
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,.4), inset 0 -2px 3px 0 #cc7f0a, inset 0 1px 0 0 #fff9b1;
+  border-radius: 40px;
+}*/
 .call-action-area .price {
   font-size:4em;
   vertical-align: center;
@@ -90,14 +148,124 @@ nav {
 }
 .call-action-area .call-action-link:hover, .call-action-area .call-action-link:focus, .btn:hover, .btn:focus {top:0;}
 
+
+.faixa {
+    background: none repeat scroll 0 0 #AB3801;
+    float: left;
+    padding-top: 1em;
+    width: 100%;
+}
+
+.altinha{
+  margin-bottom: 3em;
+}
+
+
+/* =============================================================================
+   CONTENT
+   ========================================================================== */
+.content a {color:#f0a303;}
+.content a:hover, .content a:focus {
+  color:#fddd52;
+  text-decoration: underline;
+}
+
 /* =============================================================================
    ABOUT
    ========================================================================== */
 .about {
   padding:19px;
   margin: 0 -20px 0;
+  background: none repeat scroll 0 0 #FFFFFF;
+  border: 1px solid #E7E7E7;
+  border-radius: 0 0 270px 0;
+  box-shadow: 0 0 15px -5px rgba(0, 0, 0, 0.6);
+}
+#about {
+  padding-top: 0;
 }
 
+.titulosobre{
+  border-left: 25px solid #FF8D1D;
+  line-height: 0.9;
+  margin-left: -20px;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+/* =============================================================================
+   LOCATION
+   ========================================================================== */
+
+.locbg{
+  margin-top: 5em;
+}
+
+.msiw{
+  overflow:hidden;
+}
+
+.location-area {
+  background: #e7e7e7;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  height: 300px;
+
+}
+
+.bginfo {
+    background: none repeat scroll 0 0 rgba(217, 70, 1, 0.79);
+    border-radius: 250px 250px 0 0;
+    padding: 4px 10px 10px 30px;
+    position: relative;
+    text-align: center;
+    top: 455px;
+    margin: 0 auto;
+}
+
+.bginfo h2 {
+    color: white;
+    font-size: 32px;
+    margin: 10px 0 0;
+}
+
+.bginfo p {
+    color: white;
+    font-size: 13px;
+    font-weight: lighter;
+    margin: 0;
+}
+/* =============================================================================
+   HOTELS
+   ========================================================================== */
+.hotels {
+    background: none repeat scroll 0 0 white;
+    border-radius: 0 208px 0 0;
+    box-shadow: 0 0 15px -5px rgba(0, 0, 0, 0.6);
+    margin: 3em auto 0;
+    padding: 2em;
+    width: 70%;
+}
+
+.hotels-item{
+  border-top:1px dashed gray;
+  padding-top:1em;
+}
+
+.hotels-item img{
+  margin-right:1em;
+  width:130px;  
+}
+
+.hotels-item h4{
+  margin-top:10px;
+}
+
+.hotels-item span{
+  background: image-url("/img/piggy.png") no-repeat left;
+  padding-left:50px;
+}
+  
+  
 /* =============================================================================
    SPEAKER
    ========================================================================== */
@@ -128,6 +296,25 @@ nav {
 }
 .speakers-name{font-size:1.6em;}
 .speakers-item p {font-size:1.4em;}
+
+
+
+#speakers
+.speaker-photo .photo {
+  border-radius: 50%;
+  box-shadow: 0 0 0 8px rgba(0,0,0,.07);
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.speakers-item:hover .speaker-photo .photo {box-shadow: 0 0 0 8px rgba(0,0,0,.3);}
+.speech-time {
+  color:#fff;
+  background:#2b2b2b;
+  border-radius: 8px;
+}
 
 /* =============================================================================
    SCHEDULE
@@ -166,6 +353,24 @@ nav {
   display: block;
   font-size:12px;
 }
+
+#schedule
+.schedule-tbl {
+  background:#fff;
+  border:1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.15);
+}
+.schedule-tbl table {background:#fff;}
+.schedule-tbl td, .schedule-tbl th {border-bottom:1px solid #e7e7e7;}
+.schedule-tbl tbody tr:nth-child(2n+1) {background:#f6f6f6;}
+.schedule-tbl th {color:#2b2b2b;}
+.schedule-tbl .speaker-photo .photo {box-shadow: 0 0 0 1px rgba(0,0,0,.3);}
+.speakers-company {color:#999;}
+.schedule-slot {color:#2b2b2b;}
+.schedule-tbl tbody tr:hover {background:#fffde1;}
+.schedule-coffee, .schedule-closing, .schedule-lunch, .schedule-other {color:#214f87;}
+
 
 
 /* =============================================================================
