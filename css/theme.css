@@ -413,6 +413,67 @@ h1{
   background: #e7e7e7;
   text-align: center;
 
+}.politic a :hover{
+
+  background: #ff8d1d;
+
+}#conditions {
+    padding-top: 0;
+}
+.content section {
+    padding-top: 50px;
+}
+.conditions{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #E7E7E7;
+    border-radius: 0 0 270px 0;
+    box-shadow: 0 0 15px -5px rgba(0, 0, 0, 0.6);
+}
+.conditions{
+    padding: 19px;
+    margin: 0 -20px:;
+  }
+
+p {
+font-size: 1.6em;
+line-height: 1.6em;
+margin-bottom: 1.4em;
+}
+* {
+padding: 0;
+list-style: none;
+border: 0;
+text-decoration: none;
 }
 
+/* =============================================================================
+   HOTELS
+   ========================================================================== */
+.hotels {
+    background: none repeat scroll 0 0 white;
+    border-radius: 0 208px 0 0;
+    box-shadow: 0 0 15px -5px rgba(0, 0, 0, 0.6);
+    margin: 3em auto 0;
+    padding: 2em;
+    width: 70%;
+}
+
+.hotels-item{
+  border-top:1px dashed gray;
+  padding-top:1em;
+}
+
+.hotels-item img{
+  margin-right:1em;
+  width:130px;  
+}
+
+.hotels-item h4{
+  margin-top:10px;
+}
+
+.hotels-item span{
+  background: image-url("/img/piggy.png") no-repeat left;
+  padding-left:50px;
+}
 
