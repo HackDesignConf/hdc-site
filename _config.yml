@@ -36,6 +36,16 @@ sections:
   partners: true
   contact: false
 
+
+# The entire list of hotels
+hotels:
+  -
+    presentation:
+      hotelname: "Hotel Guanabara"
+      hotelphoto: "http://www.windsorhoteis.com.br/arquivos/imagens/hoteis/28_pagina.jpg"
+      hoteldesc: "Avenida Presidente Vargas, 392. Centro, Rio de Janeiro - RJ"
+  -
+    
 # The entire schedule
 schedule:
   -

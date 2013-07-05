@@ -3,26 +3,20 @@
   <!-- HOTELS -->
   <section class="hotels" id="hotels">
 
-    <h2 class="section-title">Onde ficar?</h2>
+    <h2 class="section-title titulosobre">Onde ficar?</h2>
 
     <ul class="speakers-list">
-    {% for speaker in site.schedule %}
-      {% if speaker.presentation %}
         <li class="speakers-item">
-          <span class="speaker-photo"><img class="photo" src="{{ speaker.photo }}" alt="{{ speaker.name }}" /></span>
+          <span class="speakers-photo"><img class="photo" src="img/guanabara.jpg" alt="" /></span>
 
           <h3 class="speech-title">
-            {% if speaker.presentation.time %}
-              <span class="speech-time">{{ speaker.presentation.time }}</span>
-            {% endif %}
-              <span> {{ speaker.presentation.title }}</span>
+              Hotel Guanabara
+              <span class="speech-time">Diária R$000,00</span>
+              <span> 
+                Avenida Presidente Vargas, 392. Centro, Rio de Janeiro - RJ
+              </span>
           </h3>
-
-          <h3 class="speakers-name">{{ speaker.name }} <a href="http://www.twitter.com/{{ speaker.twitter }}" title="Twitter @{{ speaker.twitter }}">@{{ speaker.twitter }}</a></h3>
-          <p class="speakers-bio">{{ speaker.bio }}</p>
         </li>
-      {% endif %}
-    {% endfor %}
     </ul>
 
   </section>
