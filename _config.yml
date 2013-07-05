@@ -30,6 +30,7 @@ sections:
   conditions: true
   location: true
   speakers: true
+  hotels: true
   schedule: true
   sponsors: true
   partners: true
