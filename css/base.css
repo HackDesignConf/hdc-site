@@ -36,7 +36,7 @@ p {
   margin-bottom: 1.4em;
 }
 .photo {
-    border-radius: 250px 250px 250px 250px;
+    /*border-radius: 250px 250px 250px 250px;*/
     box-shadow: 0 19px 4px -12px;
     max-width: 100%;
     position: relative;
