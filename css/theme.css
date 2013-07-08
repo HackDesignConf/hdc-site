@@ -314,30 +314,36 @@ text-decoration: none;
    ========================================================================== */
 .hotels {
     background: none repeat scroll 0 0 white;
-    border-radius: 0 208px 0 0;
+    border-radius: 0 0px 0 0;
     box-shadow: 0 0 15px -5px rgba(0, 0, 0, 0.6);
     margin: 3em auto 0;
     padding: 2em;
-    width: 70%;
+    width: 80%;
 }
 
 .hotels-item{
   border-top:1px dashed gray;
   padding-top:1em;
+  float:left;
 }
 
 .hotels-item img{
   margin-right:1em;
-  width:130px;  
+  width:130px;
+  float:left;
+  padding-left:10px;  
 }
 
 .hotels-item h4{
-  margin-top:10px;
+  margin:10px;
+  float:left;
+  padding-left:10px;
 }
 
 .hotels-item span{
   background: image-url("/img/piggy.png") no-repeat left;
   padding-left:50px;
+  float:left;
 }
 
 
