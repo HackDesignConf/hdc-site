@@ -246,6 +246,7 @@ h1.logo-name span {
 .hotels-item{
   border-top:1px dashed gray;
   padding-top:1em;
+  height: 145px;
 }
 
 .hotels-item img{
@@ -254,12 +255,8 @@ h1.logo-name span {
 }
 
 .hotels-item h4{
-  margin-top:10px;
-}
-
-.hotels-item span{
-  background: image-url("/img/piggy.png") no-repeat left;
-  padding-left:50px;
+  margin: 5px 0;
+  padding: 0;
 }
   
   

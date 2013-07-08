@@ -329,21 +329,27 @@ text-decoration: none;
 }
 
 .hotels-item img{
-  margin-right:1em;
+  margin-right: 20px;
   width:130px;
-  float:left;
+  float: left;
   padding-left:10px;  
 }
 
-.hotels-item h4{
-  margin:10px;
-  padding-left:10px;
+.hotels-item h4 {
+  margin: 5px 0;
+  padding: 0;
 }
 
 .hotels-item span{
-  background: image-url("/img/piggy.png") no-repeat left;
-  padding-left:50px;
-  float:left;
+  /*background: image-url("/img/piggy.png") no-repeat left;*/
+  font-weight: bold;
+  color: #333;
+}
+
+.hotels-item p {
+  margin: 0 0 10px;
+  font-size: 1.4em;
+  line-height: 1.2em;
 }
 
 
