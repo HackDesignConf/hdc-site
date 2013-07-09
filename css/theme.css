@@ -92,6 +92,14 @@
   display: block;
 }
 
+#speakers {
+  margin-bottom: 30px;
+}
+
+#speakers h2.section-title {
+  margin-bottom: 50px;
+}
+
 
 
 /* =============================================================================
