@@ -401,3 +401,25 @@ text-decoration: none;
 
 }
 
+
+.tapume {
+  float: left;
+}
+.email {
+  float: left;
+  line-height: 1.8em;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  color: #999;
+  margin: 42px 0 0 10px;
+}
+
+.email strong {
+  display: block;
+  text-transform: none;
+  border-top: 1px solid #e0e0e0;
+  border-right: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+  margin-left: -10px;
+  padding: 5px 10px;
+}
