@@ -59,6 +59,31 @@
 
 }
 
+#nav {
+  height: 18px;
+}
+
+#nav ul {
+  float: left;
+}
+
+#nav ul li {
+  line-height: 20px;
+}
+
+#nav .right {
+  float: right;
+}
+
+#nav .right .fb {
+  width: 25px;
+  height: 25px;
+  display: block;
+  text-indent: -9999em;
+  background: url('/img/icon-fb.png') 0 0 no-repeat;
+  margin-top: -5px;
+}
+
 
 
 
