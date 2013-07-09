@@ -21,8 +21,8 @@ site:
   favicon: "/img/favicon.png"
   googleanalytics: "UA-33656081-1"
   images:
-    cover: "/img/hdc_logo.png"
-    facebook: "/img/hdc_logo.png"
+    cover: "http://hackdesignconf.com/img/facebook.png"
+    facebook: "http://hackdesignconf.com//img/facebook.png"
 
 # Active sections on the website
 sections:
