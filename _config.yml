@@ -7,22 +7,22 @@ permalink: /:title.html
 
 # Conference info
 conf:
-  name: ""
-  description: "Conference description"
-  date: ""
-  price: "$100"
-  address: "Pça 15 de novembro,20 centro,Brazil"
+  name: "Hack &amp; Design Conference'13"
+  description: "O Hack & Design Conference, aka HDC'13, une as comunidades de hacking e codificação com a comunidade de design."
+  date: "05/10/2013"
+  price: "R$130"
+  address: "UNIRIO - Prédio CCET - Av. Pasteur, nº 458, sala 203 - Urca"
   venue: ""
-  city: ""
+  city: "Rio de Janeiro"
 
 # Site info
 site:
-  url: "http://confboilerplate.com"
-  favicon: "http://braziljs.org/favicon.ico"
+  url: "http://hackdesignconf.com/"
+  favicon: "/img/favicon.png"
   googleanalytics: "UA-33656081-1"
   images:
-    cover: "/img/logohack.png"
-    facebook: "http://braziljs.org/img/fb-share.jpg"
+    cover: "/img/hdc_logo.png"
+    facebook: "/img/hdc_logo.png"
 
 # Active sections on the website
 sections:
