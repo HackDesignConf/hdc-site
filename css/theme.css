@@ -93,7 +93,10 @@
 }
 
 #speakers {
+  padding-top: 35px;
   margin-bottom: 30px;
+  width: 90%;
+  margin: 0 auto;
 }
 
 #speakers h2.section-title {
