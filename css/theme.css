@@ -324,7 +324,7 @@ h1{
     padding-top: 0;
 }
 .content section {
-    padding-top: 50px;
+    padding-top: 250px;
 }
 .conditions{
     background: none repeat scroll 0 0 #FFFFFF;
@@ -422,4 +422,40 @@ text-decoration: none;
   border-bottom: 1px solid #e0e0e0;
   margin-left: -10px;
   padding: 5px 10px;
+}
+div.important-notice-home {
+    width:15%;
+    background-color: #FFFFFF;
+    border: 1px solid #D7D7D7;
+    margin-top: 60px;
+    min-height: 200px;
+    padding: 0 15px 10px 10px;
+    float:right;
+}
+div.important-notice-home h2 {
+    font-size: 17px;
+    margin: 10px;
+}
+div.important-notice-home ul {
+    margin: 0 0 9px 15px;
+}
+div.important-notice-home ul li {
+    list-style: none outside none;
+    margin-top: 15px;
+}
+
+.arrive h4 {
+display: block;
+-webkit-margin-before: 1.33em;
+-webkit-margin-after: 1.33em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+}
+.arrive h4{
+  font-size:17px;
+}
+.arrive p{
+  margin: 0 0 10px;
+  font-size: 1.4em;
+  line-height: 1.2em;
 }

@@ -232,17 +232,18 @@ h1.logo-name span {
     font-weight: lighter;
     margin: 0;
 }
-/* =============================================================================
-   HOTELS
-   ========================================================================== */
-.hotels {
+
+.section-box {
     background: none repeat scroll 0 0 white;
-    border-radius: 0 208px 0 0;
     box-shadow: 0 0 15px -5px rgba(0, 0, 0, 0.6);
     margin: 3em auto 0;
     padding: 2em;
     width: 70%;
 }
+
+/* =============================================================================
+   HOTELS
+   ========================================================================== */
 
 .hotels-item{
   border-top:1px dashed gray;
