@@ -300,6 +300,15 @@ h1.logo-name span {
     background: none repeat scroll 0 0 rgba(0, 0, 0, 0.0);
   }
   
+  .car{
+    background: url("./img/transport_icons.png");
+    background-position": 10px 10px;
+    background-size:100%;
+    padding-top:50px;
+    float:left;
+    width:24%;
+  }
+  
   
 /* =============================================================================
    SPEAKER
