@@ -300,10 +300,10 @@ h1.logo-name span {
     margin-right: 20px;
     width:130px;
 }
-
-.hotels-item h4{
-  margin: 5px 0;
-  padding: 0;
+.hotels-item h4 {
+    font-size: 1em;
+    margin: 5px 0;
+    padding: 0;
 }
 
 .hotels-item a { color: #777; }
