@@ -31,12 +31,13 @@
     box-shadow: 0 0 15px -5px rgba(0, 0, 0, 0.6);
 }
 
-.titulosobre{
-  border-left: 25px solid #FF8D1D;
-  line-height: 0.9;
-  margin-left: -20px;
-  padding-left: 10px;
-  padding-top: 5px;
+.titulosobre {
+    border-left: 25px solid #FF8D1D;
+    font-size: 2.2em;
+    line-height: 0.9;
+    margin-left: -20px;
+    padding-left: 10px;
+    padding-top: 5px;
 }
 
 /* =============================================================================
@@ -147,6 +148,10 @@
   }
 }
 @media only screen and (max-width : 480px) {
+  
+  .fifty{
+    width:90%;
+  }
   /* speakers */
   .speaker-photo .photo {box-shadow: 0 0 0 3px rgba(0,0,0,.07);}
   .speech-title {font-weight: bolder;}
@@ -342,10 +347,12 @@ h1{
   }
 
 p {
-font-size: 1.6em;
-line-height: 1.6em;
-margin-bottom: 1.4em;
+    font-size: 0.9em;
+    font-weight: 100;
+    line-height: 1.6em;
+    margin-bottom: 1.4em;
 }
+
 * {
 padding: 0;
 list-style: none;
@@ -392,17 +399,18 @@ text-decoration: none;
 
 .hotels-item p {
   margin: 0 0 10px;
-  font-size: 1.4em;
+  font-size: 0.9em;
   line-height: 1.2em;
 }
 
 
 
 
-.eventickframe{
-  width:100%;
-  margin:0 auto ;
-
+.eventickframe {
+    height: 276px;
+    margin: 0 auto;
+    overflow: auto;
+    width: 100%;
 }
 
 
@@ -428,13 +436,11 @@ text-decoration: none;
   padding: 5px 10px;
 }
 div.important-notice-home {
-    width:15%;
     background-color: #FFFFFF;
     border: 1px solid #D7D7D7;
-    margin-top: 60px;
+    margin-bottom: 2em;
     min-height: 200px;
-    padding: 0 15px 10px 10px;
-    float:right;
+    padding: 10px;
 }
 div.important-notice-home h2 {
     font-size: 17px;
@@ -444,6 +450,8 @@ div.important-notice-home ul {
     margin: 0 0 9px 15px;
 }
 div.important-notice-home ul li {
+    font-size: 0.9em;
+    font-weight: 100;
     list-style: none outside none;
     margin-top: 15px;
 }

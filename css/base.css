@@ -3,7 +3,8 @@
    ========================================================================== */
 html {
   background:#EBEBEB;
-  font:normal normal 10px/1.2em helvetica, arial, sans-serif;
+  font:9px/1em;
+  font-family: 'Ubuntu', sans-serif;
   color:#777;
 }
 
@@ -28,7 +29,7 @@ h2, h3, h4 {
   margin-bottom:.4em;
   letter-spacing: -.02em;
 }
-h3 {font-size: 4em;}
+h3 {font-size: 1.3em;}
 h4 {font-size:3em;}
 p {
   font-size:1.6em;
@@ -61,7 +62,7 @@ nav {
   display: inline-block;
   margin-right:15px;
 }
-.nav-link {color:#fff;font-size: 1.4em;}
+.nav-link {color:#fff;font-size: 0.8em;}
 .nav-link:active,
 .nav-link:hover,
 .nav-link:focus,
@@ -189,6 +190,11 @@ h1.logo-name span {
   margin-left: -20px;
   padding-left: 10px;
   padding-top: 5px;
+}
+
+.fifty{
+  float:left;
+  width:47%;
 }
 /* =============================================================================
    LOCATION
