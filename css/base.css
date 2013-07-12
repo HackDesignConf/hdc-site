@@ -24,13 +24,13 @@ html {
 h1, h2, h3, h4, h5, h6 {color:#2b2b2b;}
 
 h2, h3, h4 {
-  font-size: 5em;
+  font-size: 2.1em;
   font-weight: normal;
   margin-bottom:.4em;
   letter-spacing: -.02em;
 }
 h3 {font-size: 1.3em;}
-h4 {font-size:3em;}
+h4 {font-size: 1.4em}
 p {
   font-size:1.6em;
   line-height:1.6em;
@@ -172,9 +172,9 @@ h1.logo-name span {
 /* =============================================================================
    ABOUT
    ========================================================================== */
+
 .about {
   padding:19px;
-  margin: 0 -20px 0;
   background: none repeat scroll 0 0 #FFFFFF;
   border: 1px solid #E7E7E7;
   border-radius: 1 0 270px 0;
@@ -244,7 +244,6 @@ h1.logo-name span {
     box-shadow: 0 0 15px -5px rgba(0, 0, 0, 0.6);
     margin: 3em auto 0;
     padding: 2em;
-    width: 70%;
 }
 
 /* =============================================================================
@@ -273,6 +272,15 @@ h1.logo-name span {
 /* =============================================================================
    SPEAKER
    ========================================================================== */
+#speakers {
+    padding: 1px 20px 20px;
+}
+
+#speakers h2.section-title {
+  margin-bottom: 50px;
+}
+
+
 .speakers-item {
   position:relative;
   min-height:180px;
@@ -299,7 +307,7 @@ h1.logo-name span {
   letter-spacing:-.03em;
 }
 .speakers-name{font-size:1.6em;}
-.speakers-item p {font-size:1.4em;}
+.speakers-item p {font-size:0.9em;}
 
 
 
