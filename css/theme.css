@@ -303,9 +303,7 @@ h1{
 #conditions {
   padding-top: 0;
 }
-.content section {
-  padding-top: 250px;
-}
+
 .conditions{
     background: none repeat scroll 0 0 #FFFFFF;
     border: 1px solid #E7E7E7;
@@ -325,11 +323,12 @@ p {
 }
 
 * {
-padding: 0;
-list-style: none;
-border: 0;
-text-decoration: none;
-}
+    padding: 0;
+    list-style: none;
+    border: 0;
+    text-decoration: none;
+
+  }
 
 /* =============================================================================
    HOTELS
