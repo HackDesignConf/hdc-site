@@ -21,24 +21,6 @@
 /* =============================================================================
    ABOUT
    ========================================================================== */
-#about {
-  padding-top: 0;
-}
-.about {
-    background: none repeat scroll 0 0 #FFFFFF;
-    border: 1px solid #E7E7E7;
-    border-radius: 1 0 270px 0;
-    box-shadow: 0 0 15px -5px rgba(0, 0, 0, 0.6);
-}
-
-.titulosobre {
-    border-left: 25px solid #FF8D1D;
-    font-size: 2.2em;
-    line-height: 0.9;
-    margin-left: -20px;
-    padding-left: 10px;
-    padding-top: 5px;
-}
 
 /* =============================================================================
    LOCATION
@@ -91,17 +73,6 @@
 
 .sponsor-item a img {
   display: block;
-}
-
-#speakers {
-  padding-top: 35px;
-  margin-bottom: 30px;
-  width: 90%;
-  margin: 0 auto;
-}
-
-#speakers h2.section-title {
-  margin-bottom: 50px;
 }
 
 
