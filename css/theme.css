@@ -383,6 +383,7 @@ div.important-notice-home {
     border: 1px solid #D7D7D7;
     margin-bottom: 20px;
     padding: 10px;
+    float: right;
 }
 div.important-notice-home h2 {
     font-size: 17px;
