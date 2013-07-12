@@ -284,15 +284,21 @@ h1.logo-name span {
    HOTELS
    ========================================================================== */
 
-.hotels-item{
-  border-top:1px dashed gray;
-  padding-top:1em;
-  height: 145px;
+.hotels-item {
+    border: 1px solid #EBEBEB;
+    float: left;
+    height: 9em;
+    margin: 0.5em;
+    padding: 0.9em;
+    text-align: center;
+    width: 28%;
 }
 
-.hotels-item img{
-  margin-right:1em;
-  width:130px;  
+.hotels-item img {
+    border-radius: 250px 250px 250px 250px;
+    float: left;
+    margin-right: 20px;
+    width:130px;
 }
 
 .hotels-item h4{
