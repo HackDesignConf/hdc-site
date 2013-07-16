@@ -641,7 +641,19 @@ h1.logo-name span {
 }
 
 
+.form-foot {
+  color: #000;
+}
 
+.wufoo .info h2 {
+  font-size: 20px;
+  color: #000 !important;
+  margin: 0 0 20px;
+}
+
+.wufoo li label.desc {
+  color: #000 !important;
+}
 
 /* =============================================================================
    Media Queries
