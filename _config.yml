@@ -31,8 +31,8 @@ sections:
   location: true
   speakers: true
   hotels: true
-  schedule: true
-  sponsors: true
+  schedule: false
+  sponsors: false
   partners: true
   contact: false
 
