@@ -53,14 +53,15 @@ schedule:
       description: "Como surgem os bankers, como são formadas as quadrilhas, sistemas de fraude, mercado negro, meios de comunicação e analise macro de fraudes."
       time: "10h00"
   -
-    name: "Bill Gates"
-    photo: "http://f.cl.ly/items/2A3p1N0C3c0n3N3R1w2B/speaker.jpg"
+    name: "Barbara Wolf Dick"
+    photo: "./img/photos2.png"
     bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-    company: "Microsoft"
+    company: "Engage"
     twitter: "billy95"
     presentation:
-      title: "Introducing Windows 12"
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+      title: "O Design que precisamos: livre, aberto e colaborativo."
+      description: "O Open Design está silenciosamente mudando a industria criativa, abrindo caminhos para uma economia mais colaborativa, tanto para designers e desenvolvedores, como para usuários e consumidores. Aplicando os princípios do software livre, as iniciativas também se baseiam na ideia de que a criatividade e, principalmente a sociedade, se beneficiam do livre acesso a informação.
+      Então, com esse cenário se formando, como podemos aplicar esses processos disruptivos em busca de resultados extraordinários, abertos e livres, e começar a mudar a narrativa do Design? "
       time: "11h00"
   -
     name: "Lunch"
