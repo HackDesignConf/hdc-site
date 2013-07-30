@@ -31,7 +31,7 @@ sections:
   location: true
   speakers: true
   hotels: true
-  schedule: false
+  schedule: true
   sponsors: false
   partners: true
   contact: false
@@ -47,7 +47,7 @@ schedule:
     photo: "./img/photos.png"
     bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
     company: "Linux Foundation"
-    twitter: "linus"
+    twitter: ""
     presentation:
       title: "Ecossistema Underground"
       description: "Como surgem os bankers, como são formadas as quadrilhas, sistemas de fraude, mercado negro, meios de comunicação e analise macro de fraudes."
@@ -57,7 +57,7 @@ schedule:
     photo: "./img/photos2.png"
     bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
     company: "Engage"
-    twitter: "billy95"
+    twitter: "barbarawdick"
     presentation:
       title: "O Design que precisamos: livre, aberto e colaborativo."
       description: "O Open Design está silenciosamente mudando a industria criativa, abrindo caminhos para uma economia mais colaborativa, tanto para designers e desenvolvedores, como para usuários e consumidores. Aplicando os princípios do software livre, as iniciativas também se baseiam na ideia de que a criatividade e, principalmente a sociedade, se beneficiam do livre acesso a informação.
@@ -66,49 +66,8 @@ schedule:
   -
     name: "Lunch"
     time: "12h00"
-  -
-    name: "Chuck Norris"
-    photo: "http://f.cl.ly/items/2A3p1N0C3c0n3N3R1w2B/speaker.jpg"
-    bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-    company: "Delta Command"
-    twitter: "littlechuck"
-    presentation:
-      title: "How to kill a elephant with one finger"
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      time: "13h00"
-  -
-    name: "Steve Jobs"
-    photo: "http://f.cl.ly/items/2A3p1N0C3c0n3N3R1w2B/speaker.jpg"
-    bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-    company: "Apple, Inc."
-    twitter: "stevie"
-    presentation:
-      title: "Presenting iPad"
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      time: "14h00"
-  -
-    name: "Coffee-break"
-    time: "15h00"
-  -
-    name: "Mark Zuckerberg"
-    photo: "http://f.cl.ly/items/2A3p1N0C3c0n3N3R1w2B/speaker.jpg"
-    bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-    company: "Facebook"
-    twitter: "zuck"
-    presentation:
-      title: "Revealing Facebook Secrets"
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      time: "16h00"
-  -
-    name: "Steve Wozniak"
-    photo: "http://f.cl.ly/items/2A3p1N0C3c0n3N3R1w2B/speaker.jpg"
-    bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-    company: "Apple, Inc."
-    twitter: "woz"
-    presentation:
-      title: "Why do I prefer Android over iPhone"
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      time: "17h00"
+  
+  
 
 # List of Sponsors
 sponsors:
