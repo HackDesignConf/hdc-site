@@ -47,7 +47,25 @@ html{background-image:none;background-color:#99cc00}
     font-weight: bold;
     padding: 10px;
     width: 25%;
+    
+    -webkit-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    -moz-transition: all 1s linear;
+    -ms-transition: all 1s linear;
+    -kthtml-transition: all 1s linear;
+    transition: all 1s linear;
 }
+
+
+.wufoo input.btTxt:hover {
+  box-shadow:0 1px #BE7626, 0 9px 12px -13px black;
+}
+.wufoo input.btTxt:active {
+    box-shadow:0 -5px #BE7626,inset 0 -2px 5px -4px black;
+    margin-top:5px;
+  }
+
+
 
 .wufoo label.choice{color:#444444}
 .wufoo .instruct{font-size:80%;font-family:inherit;color:#444444
