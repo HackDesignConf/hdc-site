@@ -27,6 +27,8 @@ html {
 }
 
 
+
+
 /* =============================================================================
    BASIC STYLES
    ========================================================================== */
@@ -73,14 +75,14 @@ p {
    NAVIGATION
    ========================================================================== */
 nav {
+    background: none repeat scroll 0 0 #291C15;
+    color: white;
     left: 0;
-    padding: 15px 0;
+    padding: 7px 0;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 10;
-    background: none repeat scroll rgb(41, 28, 21);;
-    color: white;
 }
 
 .nav-item {
@@ -195,7 +197,7 @@ h1.logo-name span {
     margin-left: 1em;
     margin-top: 2px;
     padding-left: 39px;
-    padding-top: 20px;
+    padding-top: 13px;
 }
 
 /* =============================================================================
@@ -205,6 +207,13 @@ h1.logo-name span {
 .content a:hover, .content a:focus {
   color:#fddd52;
   text-decoration: underline;
+}
+
+.embed #container {
+    background: red;
+    border: medium none !important;
+    box-shadow: none !important;
+    width: 100% !important;
 }
 
 /* =============================================================================
@@ -711,6 +720,7 @@ h1.logo-name span {
 }
 
 @media only screen and (max-width: 480px) {
+  
   h2 {
     font-size: 1.2em !important;
   }

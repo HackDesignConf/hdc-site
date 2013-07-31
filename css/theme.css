@@ -235,7 +235,7 @@ input:invalid, textarea:invalid {
 }
 
 .date span {
-  display: block;
+  display: inline-block;
 }
 
 
@@ -247,6 +247,7 @@ input:invalid, textarea:invalid {
   background: #F16521;
   box-shadow: 0px 0px 33px 5px rgba(0, 0, 0, 0.3);
   border-top: 5px solid #D92727;
+  min-height:600px;
 }
 
 .offer {
@@ -423,6 +424,52 @@ display: block;
 /* =============================================================================
    FORM
    ========================================================================== */
+/* WUFOO FORM */
+#faleconosco {
+  padding-top: 70px;
+  padding-bottom:210px;
+}
+
+#faleconosco form {
+  margin: 0 auto;
+  width: 600px;
+}
+
+#faleconosco h2 {
+  font-size:20px;
+  margin:0;
+}
+
+#faleconosco .pre, #faleconosco .sub {
+  font-size:20px;
+}
+
+#faleconosco .containner {
+  padding-bottom:120px;
+}
+
+#faleconosco input[type="text"] {
+  width: 675px;
+  padding: 15px;
+  margin-left: 30px;
+  margin-bottom:10px;
+}
+
+#faleconosco textarea {
+  width: 613px;
+  margin: 30px 0 30px 30px;
+  padding: 15px;
+}
+
+.container {
+  background: red !important;
+}
+.wufoo{
+
+  font-size: 30px;
+}
+
+
 
 
 

@@ -9,10 +9,11 @@
 
 <!--       <span class="price">Only $100</span>
       <a href="http://eventick.com.br" class="call-action-link" title="Register now!">Register now!</a> -->
+      <div id="sticky-anchor"></div>
     </div>
   </div>
 
-  <div class="faixa">
+  <div class="faixa" id="sticky">
     <div class="wrapper">
       <div class="date">de <span>outubro</span></div></a>
       <div class="local">UNIRIO - <strong>RJ</strong></div></a>
@@ -21,7 +22,41 @@
 
     </div>
   </div>
+  
+
+
+  <style>
+  #sticky {
+  
+  }
+  #sticky.stick {
+      position: fixed;
+      top: 32px;
+      z-index: 10000;
+  }
+  </style>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+  <script>
+  function sticky_relocate() {
+    var window_top = $(window).scrollTop();
+    var div_top = $('#sticky-anchor').offset().top;
+    if (window_top > div_top) {
+      $('#sticky').addClass('stick');
+    } else {
+      $('#sticky').removeClass('stick');
+    }
+  }
+
+  $(function() {
+    $(window).scroll(sticky_relocate);
+    sticky_relocate();
+  });
+  </script>
 </header>
+
+
 
 <!--  / HEADER -->
 

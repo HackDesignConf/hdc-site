@@ -1,0 +1,72 @@
+/* Backgrounds */
+html{background-image:none;background-color:#99cc00}
+#logo{background-image:none;background-color:#669900}
+#container{background:#FFFFFF}
+.wufoo input.text, .wufoo textarea.textarea{background:#FFFFFF url(/images/fieldbg.gif) repeat-x top}
+.wufoo .focused{background:#FFF7C0}
+.wufoo .instruct{background-color:#F5F5F5}
+
+/* Borders */
+#container{border:0 solid #cccccc}
+.wufoo .info{border-bottom:1px dotted #CCCCCC}
+.wufoo .instruct{border:1px solid #e6e6e6}
+
+/* Typography */
+.wufoo .info h2{font-size:160%;font-family:inherit;color:#000000}
+.wufoo .info div{font-size:95%;font-family:inherit;color:#444444}
+.wufoo .section h3{font-size:110%;font-family:inherit;background:#FFFFFF;color:#000000}
+.wufoo .section div{font-size:85%;font-family:inherit;color:#444444}
+
+.wufoo label.desc, .wufoo legend.desc {
+    color: #92866E;
+    font-family: inherit;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.wufoo li div, .wufoo li div label, .wufoo li span label{font-family:inherit;color:#444444}
+
+.wufoo input.text, .wufoo textarea.textarea, .wufoo select.select, .wufoo label.choice {
+    background: none repeat scroll 0 0 #FCCF9D;
+    border: medium none;
+    border-radius: 5px 5px 5px 5px;
+    color: #333333;
+    font-family: inherit;
+    font-size: 100%;
+    padding: 10px;
+}
+
+.wufoo input.btTxt {
+    background: none repeat scroll 0 0 #F79D3A;
+    border: medium none;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 5px #BE7626, 0 19px 12px -13px black;
+    color: white;
+    float: right;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+    width: 25%;
+    
+    -webkit-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    -moz-transition: all 1s linear;
+    -ms-transition: all 1s linear;
+    -kthtml-transition: all 1s linear;
+    transition: all 1s linear;
+}
+
+
+.wufoo input.btTxt:hover {
+  box-shadow:0 1px #BE7626, 0 9px 12px -13px black;
+}
+.wufoo input.btTxt:active {
+    box-shadow:0 -5px #BE7626,inset 0 -2px 5px -4px black;
+    margin-top:5px;
+  }
+
+
+
+.wufoo label.choice{color:#444444}
+.wufoo .instruct{font-size:80%;font-family:inherit;color:#444444
+}
