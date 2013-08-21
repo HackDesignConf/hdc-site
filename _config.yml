@@ -72,7 +72,17 @@ schedule:
     twitter: "pedroh96"
     presentation:
       title: ""
-      description: ""
+      description: "Palestra não definida."
+  -
+    name: "Victor Montalvão"
+    photo: "victor.png"
+    bio: "Victor é Designer com foco em experiência do usuário e especialista em usabilidade pela PUC-Rio. Atuando no mercado desde 2003, participou de diversos projetos digitais para empresas e instituições no Brasil, Canadá e Austrália. Atualmente integra o time de UX na área de Novas Mídias da Globosat, atuando em projetos para mobile, web, smart tvs e consoles de games."
+    company: "Globosat"
+    twitter: ""
+    presentation:
+      title: ""
+      description: "Palestra não definida."
+
   -
     name: "Klaus Wuestefeld"
     photo: "klaus.png"
