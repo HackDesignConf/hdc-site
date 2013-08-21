@@ -119,7 +119,7 @@
   }
 }
 @media only screen and (max-width : 480px) {
-  
+
   .fifty{
     width:90%;
   }
@@ -280,7 +280,7 @@ input:invalid, textarea:invalid {
 h1{
   color:orange;
   font-size: 20px;
- 
+
   text-align: center;
 }
 /* =============================================================================
@@ -468,8 +468,6 @@ display: block;
 
   font-size: 30px;
 }
-
-
 
 
 
