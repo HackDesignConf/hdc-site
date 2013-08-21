@@ -19,12 +19,34 @@
             <span> {{ speaker.presentation.title }}</span>
           </h3>
 
-          <h3 class="speakers-name">{{ speaker.name }}
-            {% if speaker.twiter %}
-              <a href="http://www.twitter.com/{{ speaker.twitter }}" title="Twitter @{{ speaker.twitter }}">@{{ speaker.twitter }}</a>
-            {% endif %}
-          </h3>
+          <h3 class="speakers-name">{{ speaker.name }}</h3>
           <p class="speakers-bio">{{ speaker.bio }}</p>
+          <p>
+            &#8226;
+            {% if speaker.links.site %}
+              <a href="{{ speaker.links.site }}" target="_blank">Site</a> &#8226; 
+            {% endif %}
+            {% if speaker.links.blog %}
+              <a href="{{ speaker.links.blog }}" target="_blank">Blog</a> &#8226; 
+            {% endif %}
+            {% if speaker.links.facebook %}
+              <a href="{{ speaker.links.facebook }}" target="_blank">Facebook</a> &#8226; 
+            {% endif %}
+            {% if speaker.links.linkedin %}
+              <a href="{{ speaker.links.linkedin }}" target="_blank">LinkedIn</a> &#8226; 
+            {% endif %}
+            {% if speaker.links.twitter %}
+              <a href="{{ speaker.links.twitter }}" target="_blank">Twitter</a> &#8226; 
+            {% endif %}
+            {% if speaker.links.slideshare %}
+              <a href="{{ speaker.links.slideshare }}" target="_blank">SlideShare</a> &#8226; 
+            {% endif %}
+            {% if speaker.links.github %}
+              <a href="{{ speaker.links.github }}" target="_blank">Github</a> &#8226; 
+            {% endif %}
+            {% if speaker.links.behance %}
+              <a href="{{ speaker.links.behance }}" target="_blank">Behance</a> &#8226; 
+            {% endif %}
         </li>
       {% endif %}
     {% endfor %}

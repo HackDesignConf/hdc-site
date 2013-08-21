@@ -47,8 +47,9 @@ schedule:
     photo: "emilio.png"
     bio: "Emilio é desenvolvedor de software há 16 anos, especialista em segurança da informação. Trabalha como diretor de pesquisa e inovação na GAS Tecnologia há 10 anos especificamente na área de combate a fraude contra internet banking."
     company: "GAS Tecnologia"
-    twitter: ""
-    linkedin: "http://www.linkedin.com/pub/emilio-simoni/10/9a6/242"
+    links:
+      linkedin: "http://www.linkedin.com/pub/emilio-simoni/10/9a6/242"
+      facebook: "https://www.facebook.com/emilio.simoni"
     presentation:
       title: "Ecossistema Underground"
       description: "Como surgem os bankers, como são formadas as quadrilhas, sistemas de fraude, mercado negro, meios de comunicação e analise macro de fraudes."
@@ -57,7 +58,12 @@ schedule:
     photo: "barbara.png"
     bio: "Barbar é designer digital, estrategista de inovação social e entusiasta de novas mídias. Ajuda as pessoas a alcançar seus objetivos através do bom design e experiências simples."
     company: "Engage e Pipa"
-    twitter: "barbarawdick"
+    links:
+      twitter: "https://twitter.com/barbarawdick"
+      linkedin: "http://www.linkedin.com/in/barbarawolffdick"
+      facebook: "https://www.facebook.com/barbarawolffdick"
+      behance: "http://www.behance.net/barbarawolffdick"
+      slideshare: "http://www.slideshare.net/barbarawolffdick"
     presentation:
       title: "O Design que precisamos: livre, aberto e colaborativo"
       description: "O Open Design está silenciosamente mudando a industria criativa, abrindo caminhos para uma economia mais colaborativa, tanto para designers e desenvolvedores, como para usuários e consumidores. Aplicando os princípios do software livre, as iniciativas também se baseiam na ideia de que a criatividade e, principalmente a sociedade, se beneficiam do livre acesso a informação. Então, com esse cenário se formando, como podemos aplicar esses processos disruptivos em busca de resultados extraordinários, abertos e livres, e começar a mudar a narrativa do Design? "
@@ -69,7 +75,12 @@ schedule:
     photo: "franceschi.png"
     bio: "Pedro é desenvolvedor de software desde os 14 anos de idade e já palestrou em diversos eventos, dentre eles o TEDxSudeste. Foi o responsável por ensinar o Siri, aplicativo de voz do iPhone a falar Português."
     company: "M4U"
-    twitter: "pedroh96"
+    links:
+      site: "http://www.pedrofranceschi.com/"
+      blog: "http://blog.pedrofranceschi.com/"
+      github: "http://github.com/pedrofranceschi"
+      twitter: "https://twitter.com/pedroh96"
+      linkedin: "http://www.linkedin.com/profile/view?id=52346147"
     presentation:
       title: ""
       description: "Palestra não definida."
@@ -78,7 +89,9 @@ schedule:
     photo: "victor.png"
     bio: "Victor é Designer com foco em experiência do usuário e especialista em usabilidade pela PUC-Rio. Atuando no mercado desde 2003, participou de diversos projetos digitais para empresas e instituições no Brasil, Canadá e Austrália. Atualmente integra o time de UX na área de Novas Mídias da Globosat, atuando em projetos para mobile, web, smart tvs e consoles de games."
     company: "Globosat"
-    twitter: ""
+    links:
+      linkedin: "http://www.linkedin.com/in/victormontalvao"
+      site: "http://victormontalvao.com"
     presentation:
       title: ""
       description: "Palestra não definida."
@@ -88,7 +101,11 @@ schedule:
     photo: "klaus.png"
     bio: "Klaus é palestrante em eventos como o Fórum Internacional de Software Livre, a OOPSLA nos EUA, ICOODB em Berlin, DevInSampa, QCon e Agile Brasil. Jogador de Go e chefe escoteiro, ele é pioneiro de Extreme Programming no país e autor do Prevayler, um dos projetos de software livre brasileiros mais conhecidos no exterior. É fundador da Objective Solutions e autor do manifesto da computação soberana."
     company: "Objective Solutions e Sneer"
-    twitter: ""
+    links:
+      twitter: "https://twitter.com/klauswuestefeld/"
+      blog: "http://klauswuestefeld.blogspot.com.br/"
+      facebook: "https://www.facebook.com/klauswuestefeld"
+      github: "https://github.com/klauswuestefeld"
     presentation:
       title: "Bem-Vindo à Computação Soberana, à Queda do Google e ao Fim do Facebook"
       description: "Usuários de Software Livre ou não, todos não passavam de súditos. Subjugados por um punhado de autoridades da internet, conformavam-se às leis arbitrárias, ditadas por elas. Aí, as pessoas cansaram dessa palhaçada. Decidiram que seriam livres para compartilhar informação e recursos de hardware com seus amigos, da forma como bem entendessem. Essa liberdade ficou conhecida como computação soberana."
