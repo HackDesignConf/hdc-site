@@ -115,16 +115,15 @@ schedule:
   -
     name: "Alexandre Benitah"
     photo: "beni.png"
-    bio: "Klaus é palestrante em eventos como o Fórum Internacional de Software Livre, a OOPSLA nos EUA, ICOODB em Berlin, DevInSampa, QCon e Agile Brasil. Jogador de Go e chefe escoteiro, ele é pioneiro de Extreme Programming no país e autor do Prevayler, um dos projetos de software livre brasileiros mais conhecidos no exterior. É fundador da Objective Solutions e autor do manifesto da computação soberana."
-    company: "Objective Solutions e Sneer"
+    bio: "Designer há 9 anos, Alexandre Benitah é especialista em Usabilidade & Arquitetura da Informação pela PUC e Design Thinking pela Infnet. Atualmente faz parte do time de UX da Globo.com, é um dos sócios da rede social Estou Jogando e anda de Longboard todo sábado de manhã."
+    company: "Globo.com"
     links:
-      twitter: "https://twitter.com/klauswuestefeld/"
-      blog: "http://klauswuestefeld.blogspot.com.br/"
-      facebook: "https://www.facebook.com/klauswuestefeld"
-      github: "https://github.com/klauswuestefeld"
+      twitter: "https://twitter.com/benimesmo"
+      blog: "https://www.alexandrebenitah.com"
+      facebook: "https://www.facebook.com/alexandrebenitah?fref=ts"
     presentation:
-      title: "Bem-Vindo à Computação Soberana, à Queda do Google e ao Fim do Facebook"
-      description: "Usuários de Sof
+      title: "Como gerar uma melhor experiência de uso? Entenda as necessidades do usuário!"
+      description: "Você sabe quais problemas os usuários enfrentam usando seu produto? Sabe quais as necessidades reais deles? Sabe o que faz eles desistirem de usar? Provavelmente não =D, mas existem algumas técnicas de pesquisa e arquitetura da informação que podem facilitar a vida dele tornando o seu produto muito melhor.Conheça algumas técnicas aplicadas no fluxo de cadastro da rede social Estou Jogando e como os resultados dessas técnicas melhoraram a experiência de uso deste processo."
 
 # List of Sponsors
 sponsors:
