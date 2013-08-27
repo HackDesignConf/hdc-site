@@ -111,6 +111,21 @@ schedule:
       title: "Bem-Vindo à Computação Soberana, à Queda do Google e ao Fim do Facebook"
       description: "Usuários de Software Livre ou não, todos não passavam de súditos. Subjugados por um punhado de autoridades da internet, conformavam-se às leis arbitrárias, ditadas por elas. Aí, as pessoas cansaram dessa palhaçada. Decidiram que seriam livres para compartilhar informação e recursos de hardware com seus amigos, da forma como bem entendessem. Essa liberdade ficou conhecida como computação soberana."
 
+
+  -
+    name: "Alexandre Benitah"
+    photo: "beni.png"
+    bio: "Klaus é palestrante em eventos como o Fórum Internacional de Software Livre, a OOPSLA nos EUA, ICOODB em Berlin, DevInSampa, QCon e Agile Brasil. Jogador de Go e chefe escoteiro, ele é pioneiro de Extreme Programming no país e autor do Prevayler, um dos projetos de software livre brasileiros mais conhecidos no exterior. É fundador da Objective Solutions e autor do manifesto da computação soberana."
+    company: "Objective Solutions e Sneer"
+    links:
+      twitter: "https://twitter.com/klauswuestefeld/"
+      blog: "http://klauswuestefeld.blogspot.com.br/"
+      facebook: "https://www.facebook.com/klauswuestefeld"
+      github: "https://github.com/klauswuestefeld"
+    presentation:
+      title: "Bem-Vindo à Computação Soberana, à Queda do Google e ao Fim do Facebook"
+      description: "Usuários de Sof
+
 # List of Sponsors
 sponsors:
   -
