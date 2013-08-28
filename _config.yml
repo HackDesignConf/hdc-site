@@ -119,8 +119,9 @@ schedule:
     company: "Globo.com"
     links:
       twitter: "https://twitter.com/benimesmo"
-      blog: "https://www.alexandrebenitah.com"
+      site: http://www.alexandrebenitah.com/"
       facebook: "https://www.facebook.com/alexandrebenitah?fref=ts"
+      linkedin: "http://www.linkedin.com/pub/alexandre-benitah/28/9b3/a53"
     presentation:
       title: "Como gerar uma melhor experiência de uso? Entenda as necessidades do usuário!"
       description: "Você sabe quais problemas os usuários enfrentam usando seu produto? Sabe quais as necessidades reais deles? Sabe o que faz eles desistirem de usar? Provavelmente não =D, mas existem algumas técnicas de pesquisa e arquitetura da informação que podem facilitar a vida dele tornando o seu produto muito melhor.Conheça algumas técnicas aplicadas no fluxo de cadastro da rede social Estou Jogando e como os resultados dessas técnicas melhoraram a experiência de uso deste processo."
