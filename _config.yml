@@ -83,7 +83,7 @@ schedule:
       linkedin: "http://www.linkedin.com/profile/view?id=52346147"
     presentation:
       title: ""
-      description: "Palestra não definida."
+      description: "."
   -
     name: "Victor Montalvão"
     photo: "victor.png"
@@ -92,10 +92,9 @@ schedule:
     links:
       linkedin: "http://www.linkedin.com/in/victormontalvao"
       site: "http://victormontalvao.com"
-      behance: "http://www.behance.net/victormontalvao"
     presentation:
-      title: ""
-      description: "Palestra não definida."
+      title: "Do papel ao usuário: boas experiências são projetadas a 4 mãos"
+      description: 'Que desenvolvedor nunca se revoltou com as "pirações" daquele designer loucão que só faz "firulas"? E que designer nunca se revoltou com aquele "NÃO" bem sonoro de um desenvolvedor se recusando a implementar alguma coisa super legal que todos os sites gringos estão usando? Dura realidade nossa de todos os dias... Mas, e o usuário, onde fica nessa história? Estamos projetando/desenvolvendo soluções realmente funcionais para ele? Afinal, é para satisfazer a esse cara que trabalhamos, correto?Que tal, juntos, fazermos uma reflexão sobre nossas atitudes enquanto profissionais de tecnologia e pensarmos (de coração) em como unir forças em prol de uma web melhor, com experiências impactantes e verdadeiramente boas para quem realmente interessa, o usuário.'
 
   -
     name: "Klaus Wuestefeld"
