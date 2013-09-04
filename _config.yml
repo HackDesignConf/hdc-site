@@ -82,8 +82,8 @@ schedule:
       twitter: "https://twitter.com/pedroh96"
       linkedin: "http://www.linkedin.com/profile/view?id=52346147"
     presentation:
-      title: ""
-      description: "."
+      title: "Por que você deve aprender Vim hoje."
+      description: "Uns o amam, muitos o odeiam, mas uma coisa é certa: quem usa o Vim não consegue voltar para um editor de texto diferente. Utilizar um editor de 20 anos de idade e sem interface gráfica pode parecer um absurdo em 2013, mas acredite: há excelentes motivos para cada vez mais pessoas abandonarem o TextMate e o SublimeText e (re)começarem com o Vim. Aprenda porque e como utilizá-lo do zero, assim como torná-lo mais usável e ficar estupidamente produtivo ao programar. Mas tome cuidado: once you go Vim, you'll never go back. Eu avisei, hein?.. :P"
   -
     name: "Victor Montalvão"
     photo: "victor.png"
