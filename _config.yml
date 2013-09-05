@@ -125,6 +125,21 @@ schedule:
       title: "Como gerar uma melhor experiência de uso? Entenda as necessidades do usuário!"
       description: "Você sabe quais problemas os usuários enfrentam usando seu produto? Sabe quais as necessidades reais deles? Sabe o que faz eles desistirem de usar? Provavelmente não =D, mas existem algumas técnicas de pesquisa e arquitetura da informação que podem facilitar a vida dele tornando o seu produto muito melhor.Conheça algumas técnicas aplicadas no fluxo de cadastro da rede social Estou Jogando e como os resultados dessas técnicas melhoraram a experiência de uso deste processo."
 
+
+  -
+    name: "Flavia Fortes e Mauro George"
+    photo: "flaviaemauro.png"
+    bio: " <strong>Mauro</strong> participa de um time ágil na HE:labs, onde aplica eXtreme Programming no seu dia a dia, desenvolvendo soluções em Ruby/Rails. Nas horas vagas contribui em projetos Open source. E ainda, é apaixonado por Video games e é sócio do Estou Jogando, a maior rede social de Games do Brasil.<br /> <br /><strong>Flavia</strong> desenvolve em Ruby on Rails com foco em TDD, Boas Práticas e Desenvolvimento Ágil. Atualmente trabalha na HE:labs e nas horas vagas gosta de assistir a filmes do Akira Kurosawa e jogar League of Legends."
+    company: "HE:labs"
+    links:
+      twitter: ""
+      site: ""
+      facebook: ""
+      linkedin: ""
+    presentation:
+      title: ""
+      description: ""
+
 # List of Sponsors
 sponsors:
   -
