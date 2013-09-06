@@ -129,13 +129,21 @@ schedule:
   -
     name: "Flavia Fortes e Mauro George"
     photo: "flaviaemauro.png"
-    bio: " <strong>Mauro</strong> participa de um time ágil na HE:labs, onde aplica eXtreme Programming no seu dia a dia, desenvolvendo soluções em Ruby/Rails. Nas horas vagas contribui em projetos Open source. E ainda, é apaixonado por Video games e é sócio do Estou Jogando, a maior rede social de Games do Brasil.<br /> <br /><strong>Flavia</strong> desenvolve em Ruby on Rails com foco em TDD, Boas Práticas e Desenvolvimento Ágil. Atualmente trabalha na HE:labs e nas horas vagas gosta de assistir a filmes do Akira Kurosawa e jogar League of Legends."
+    bio: " <strong>Flavia</strong> desenvolve em Ruby on Rails com foco em TDD, Boas Práticas e Desenvolvimento Ágil. Atualmente trabalha na HE:labs e nas horas vagas gosta de assistir a filmes do Akira Kurosawa e jogar League of Legends<br /> <br /> <strong>Mauro</strong> participa de um time ágil na HE:labs, onde aplica eXtreme Programming no seu dia a dia, desenvolvendo soluções em Ruby/Rails. Nas horas vagas contribui em projetos Open source. E ainda, é apaixonado por Video games e é sócio do Estou Jogando, a maior rede social de Games do Brasil."
     company: "HE:labs"
     links:
-      twitter: ""
-      site: ""
-      facebook: ""
-      linkedin: ""
+      twitter: "https://twitter.com/FlaFortes"
+      facebook: "https://www.facebook.com/fla.fortes"
+      linkedin: "http://www.linkedin.com/profile/view?id=75313322"
+      github: "https://github.com/FlaviaFortes"
+    links2:
+      twitter: "https://twitter.com/maurogeorge"
+      facebook: "hhttp://www.facebook.com/mauro.george.ot"
+      blog: "http://groselhas.maurogeorge.com.br/"
+      linkedin: "http://www.linkedin.com/in/maurogeorge"
+      github: "https://github.com/maurogeorge"
+      slideshare: "http://www.slideshare.net/maurogeorge"
+      blog: "http://groselhas.maurogeorge.com.br/"
     presentation:
       title: ""
       description: ""
