@@ -146,7 +146,7 @@ schedule:
       blog: "http://groselhas.maurogeorge.com.br/"
     presentation:
       title: "O cliente e o time juntos por um só objetivo!"
-      description: ""
+      description: "Por que investir em times multidisciplinares? Qual a importância de manter uma boa comunicação entre o time e o cliente? Onde começa e termina o papel do cliente no projeto? Por que o time deve quebrar e pontuar tarefas conjuntamente? Qual a importância de desenhar as telas junto ao cliente? Por que o código deve ser coletivo? Qual é a importância das retrospectivas? Por que testes automatizados e integração contínua são indispensáveis para o projeto? Mostraremos um pouco de como lidamos com agile no dia-a-dia da HE:labs."
 
 # List of Sponsors
 sponsors:
