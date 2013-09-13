@@ -26,6 +26,10 @@ html {
   float:left;
 }
 
+a:hover img {
+  opacity: .8;
+}
+
 
 
 
