@@ -149,6 +149,27 @@ schedule:
       title: "O cliente e o time juntos por um só objetivo!"
       description: "Por que investir em times multidisciplinares? Qual a importância de manter uma boa comunicação entre o time e o cliente? Onde começa e termina o papel do cliente no projeto? Por que o time deve quebrar e pontuar tarefas conjuntamente? Qual a importância de desenhar as telas junto ao cliente? Por que o código deve ser coletivo? Qual é a importância das retrospectivas? Por que testes automatizados e integração contínua são indispensáveis para o projeto? Mostraremos um pouco de como lidamos com agile no dia-a-dia da HE:labs."
 
+
+  -
+    name: "Syvestre Mergulhão e Rafael Lima"
+    photo: "syvestreerafa.png"
+    bio: " <strong>Syvestre Mergulhão</strong>   <br /> <br /> <strong>Rafael Lima</strong>"
+    links:
+      twitter: "https://twitter.com/smergulhao"
+      facebook: "https://www.facebook.com/sylvestre.mergulhao?fref=ts"
+      linkedin: ""
+      github: "https://github.com/mergulhao?source=cc"
+    links2:
+      twitter: "https://twitter.com/rafaelp"
+      blog: ""
+      linkedin: ""
+      github: "https://github.com/rafaelp?source=cc"
+      slideshare: "http://www.slideshare.net/rafael_lima"
+      blog: ""
+      site: ""
+    presentation:
+      title: ""
+      description: ""
 # List of Sponsors
 sponsors:
   -
