@@ -151,22 +151,19 @@ schedule:
 
 
   -
-    name: "Syvestre Mergulhão e Rafael Lima"
+    name: "Sylvestre Mergulhão e Rafael Lima"
     photo: "syvestreerafa.png"
-    bio: " <strong>Syvestre Mergulhão</strong>   <br /> <br /> <strong>Rafael Lima</strong>"
+    bio: "<strong>Sylvestre Mergulhão</strong> é programador web e fundador da HE:labs.  <br /> <br /> <strong>Rafael Lima</strong>  empreendedor e desenvolvedor web. Fundador da BielSystems, co-fundador da HE:labs e do Startup DEV."
     links:
       twitter: "https://twitter.com/smergulhao"
       facebook: "https://www.facebook.com/sylvestre.mergulhao?fref=ts"
-      linkedin: ""
       github: "https://github.com/mergulhao?source=cc"
+      site: "http://mergulhao.info/"
     links2:
       twitter: "https://twitter.com/rafaelp"
-      blog: ""
-      linkedin: ""
       github: "https://github.com/rafaelp?source=cc"
       slideshare: "http://www.slideshare.net/rafael_lima"
-      blog: ""
-      site: ""
+      site: "http://rafael.adm.br/"
     presentation:
       title: ""
       description: ""
