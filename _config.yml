@@ -39,10 +39,29 @@ sections:
 
 
 schedule:
-#  -
-#    name: "Credenciamento"
-#    time: "9h00"
   -
+    name: "Credenciamento"
+    time: "8h30"
+  -
+    name: "Sylvestre Mergulhão e Rafael Lima"
+    time: "9h"
+    photo: "syvestreerafa.png"
+    bio: "<strong>Sylvestre Mergulhão</strong> é programador web e fundador da HE:labs.  <br /> <br /> <strong>Rafael Lima</strong> é  empreendedor e desenvolvedor web. Fundador da BielSystems, co-fundador da HE:labs e do Startup DEV."
+    links:
+      twitter: "https://twitter.com/smergulhao"
+      facebook: "https://www.facebook.com/sylvestre.mergulhao?fref=ts"
+      github: "https://github.com/mergulhao?source=cc"
+      site: "http://mergulhao.info/"
+    links2:
+      twitter: "https://twitter.com/rafaelp"
+      github: "https://github.com/rafaelp?source=cc"
+      slideshare: "http://www.slideshare.net/rafael_lima"
+      site: "http://rafael.adm.br/"
+    presentation:
+      title: "Valorize-se! Como crescer profissionalmente e trabalhar em um ambiente melhor"
+      description: "Nesta breve palestra Mergulhão e Rafael irão dar dicas sobre como um profissional de tecnologia pode crescer, ser melhor e por consequência ganhar mais dinheiro trabalhando com o que gosta. O foco da palestra não é negócios, mas sim como se tornar um profissional melhor e mais valorizado, quais são as pequenas coisas que podem mudar seu patamar de vida, como fazer seu marketing pessoal e como hackear o sistema em prol de um ambiente melhor. Útil para todos os programadores e designers que trabalham com web."
+  -
+    time: "9h50"
     name: "Emilio Cini Simoni"
     photo: "emilio.png"
     bio: "Emilio é desenvolvedor de software há 16 anos, especialista em segurança da informação. Trabalha como diretor de pesquisa e inovação na GAS Tecnologia há 10 anos especificamente na área de combate a fraude contra internet banking."
@@ -54,37 +73,7 @@ schedule:
       title: "Ecossistema Underground"
       description: "Como surgem os bankers, como são formadas as quadrilhas, sistemas de fraude, mercado negro, meios de comunicação e analise macro de fraudes."
   -
-    name: "Barbara Wolff Dick"
-    photo: "barbara.png"
-    bio: "Fundou a Engage, junto com oito amigos há dois anos atrás, e desde lá se joga em projetos que lidem com autonomia e empoderamento da multidão. Iniciou o Mineo, junto com a Materia Brasil, e cada dia mais se convence de que só a arte salva."
-    company: "Engage e Pipa"
-    links:
-      twitter: "https://twitter.com/barbarawdick"
-      linkedin: "http://www.linkedin.com/in/barbarawolffdick"
-      facebook: "https://www.facebook.com/barbarawolffdick"
-      behance: "http://www.behance.net/barbarawolffdick"
-      slideshare: "http://www.slideshare.net/barbarawolffdick"
-    presentation:
-      title: "O Design que precisamos: livre, aberto e colaborativo"
-      description: "O Open Design está silenciosamente mudando a industria criativa, abrindo caminhos para uma economia mais colaborativa, tanto para designers e desenvolvedores, como para usuários e consumidores. Aplicando os princípios do software livre, as iniciativas também se baseiam na ideia de que a criatividade e, principalmente a sociedade, se beneficiam do livre acesso a informação. Então, com esse cenário se formando, como podemos aplicar esses processos disruptivos em busca de resultados extraordinários, abertos e livres, e começar a mudar a narrativa do Design? "
-#  -
-#    name: "Almoço"
-#    time: "12h00"
-  -
-    name: "Pedro Franceschi"
-    photo: "franceschi.png"
-    bio: "Pedro é desenvolvedor de software desde os 14 anos de idade e já palestrou em diversos eventos, dentre eles o TEDxSudeste. Foi o responsável por ensinar o Siri, aplicativo de voz do iPhone a falar Português."
-    company: "M4U"
-    links:
-      site: "http://www.pedrofranceschi.com/"
-      blog: "http://blog.pedrofranceschi.com/"
-      github: "http://github.com/pedrofranceschi"
-      twitter: "https://twitter.com/pedroh96"
-      linkedin: "http://www.linkedin.com/profile/view?id=52346147"
-    presentation:
-      title: "Por que você deve aprender Vim hoje."
-      description: "Uns o amam, muitos o odeiam, mas uma coisa é certa: quem usa o Vim não consegue voltar para um editor de texto diferente. Utilizar um editor de 20 anos de idade e sem interface gráfica pode parecer um absurdo em 2013, mas acredite: há excelentes motivos para cada vez mais pessoas abandonarem o TextMate e o SublimeText e (re)começarem com o Vim. Aprenda porque e como utilizá-lo do zero, assim como torná-lo mais usável e ficar estupidamente produtivo ao programar. Mas tome cuidado: once you go Vim, you'll never go back. Eu avisei, hein?.. :P"
-  -
+    time: "10h40"
     name: "Victor Montalvão"
     photo: "victor.png"
     bio: "Victor é Designer com foco em experiência do usuário e especialista em usabilidade pela PUC-Rio. Atuando no mercado desde 2003, participou de diversos projetos digitais para empresas e instituições no Brasil, Canadá e Austrália. Atualmente integra o time de UX na área de Novas Mídias da Globosat, atuando em projetos para mobile, web, smart tvs e consoles de games."
@@ -95,38 +84,8 @@ schedule:
     presentation:
       title: "Do papel ao usuário: boas experiências são projetadas a 4 mãos"
       description: 'Que desenvolvedor nunca se revoltou com as "pirações" daquele designer loucão que só faz "firulas"? E que designer nunca se revoltou com aquele "NÃO" bem sonoro de um desenvolvedor se recusando a implementar alguma coisa super legal que todos os sites gringos estão usando? Dura realidade nossa de todos os dias... Mas, e o usuário, onde fica nessa história? Estamos projetando/desenvolvendo soluções realmente funcionais para ele? Afinal, é para satisfazer a esse cara que trabalhamos, correto?Que tal, juntos, fazermos uma reflexão sobre nossas atitudes enquanto profissionais de tecnologia e pensarmos (de coração) em como unir forças em prol de uma web melhor, com experiências impactantes e verdadeiramente boas para quem realmente interessa, o usuário.'
-
   -
-    name: "Klaus Wuestefeld"
-    photo: "klaus.png"
-    bio: "Klaus é palestrante em eventos como o Fórum Internacional de Software Livre, a OOPSLA nos EUA, ICOODB em Berlin, DevInSampa, QCon e Agile Brasil. Jogador de Go e chefe escoteiro, ele é pioneiro de Extreme Programming no país e autor do Prevayler, um dos projetos de software livre brasileiros mais conhecidos no exterior. É fundador da Objective Solutions e autor do manifesto da computação soberana."
-    company: "Objective Solutions e Sneer"
-    links:
-      twitter: "https://twitter.com/klauswuestefeld/"
-      blog: "http://klauswuestefeld.blogspot.com.br/"
-      facebook: "https://www.facebook.com/klauswuestefeld"
-      github: "https://github.com/klauswuestefeld"
-    presentation:
-      title: "Bem-Vindo à Computação Soberana, à Queda do Google e ao Fim do Facebook"
-      description: "Usuários de Software Livre ou não, todos não passavam de súditos. Subjugados por um punhado de autoridades da internet, conformavam-se às leis arbitrárias, ditadas por elas. Aí, as pessoas cansaram dessa palhaçada. Decidiram que seriam livres para compartilhar informação e recursos de hardware com seus amigos, da forma como bem entendessem. Essa liberdade ficou conhecida como computação soberana."
-
-
-  -
-    name: "Alexandre Benitah"
-    photo: "beni.png"
-    bio: "Designer há 9 anos, Alexandre Benitah é especialista em Usabilidade & Arquitetura da Informação pela PUC e Design Thinking pela Infnet. Atualmente faz parte do time de UX da Globo.com, é um dos sócios da rede social Estou Jogando e anda de Longboard todo sábado de manhã."
-    company: "Globo.com"
-    links:
-      twitter: "https://twitter.com/benimesmo"
-      site: http://www.alexandrebenitah.com/"
-      facebook: "https://www.facebook.com/alexandrebenitah?fref=ts"
-      linkedin: "http://www.linkedin.com/pub/alexandre-benitah/28/9b3/a53"
-    presentation:
-      title: "Como gerar uma melhor experiência de uso? Entenda as necessidades do usuário!"
-      description: "Você sabe quais problemas os usuários enfrentam usando seu produto? Sabe quais as necessidades reais deles? Sabe o que faz eles desistirem de usar? Provavelmente não =D, mas existem algumas técnicas de pesquisa e arquitetura da informação que podem facilitar a vida dele tornando o seu produto muito melhor.Conheça algumas técnicas aplicadas no fluxo de cadastro da rede social Estou Jogando e como os resultados dessas técnicas melhoraram a experiência de uso deste processo."
-
-
-  -
+    time: "11h30"
     name: "Flavia Fortes e Mauro George"
     photo: "flaviaemauro.png"
     bio: " <strong>Flavia</strong> desenvolve em Ruby on Rails com foco em TDD, Boas Práticas e Desenvolvimento Ágil. Atualmente trabalha na HE:labs e nas horas vagas gosta de assistir a filmes do Akira Kurosawa e jogar League of Legends<br /> <br /> <strong>Mauro</strong> participa de um time ágil na HE:labs, onde aplica eXtreme Programming no seu dia a dia, desenvolvendo soluções em Ruby/Rails. Nas horas vagas contribui em projetos Open source. E ainda, é apaixonado por Video games e é sócio do Estou Jogando, a maior rede social de Games do Brasil."
@@ -148,25 +107,71 @@ schedule:
     presentation:
       title: "O cliente e o time juntos por um só objetivo!"
       description: "Por que investir em times multidisciplinares? Qual a importância de manter uma boa comunicação entre o time e o cliente? Onde começa e termina o papel do cliente no projeto? Por que o time deve quebrar e pontuar tarefas conjuntamente? Qual a importância de desenhar as telas junto ao cliente? Por que o código deve ser coletivo? Qual é a importância das retrospectivas? Por que testes automatizados e integração contínua são indispensáveis para o projeto? Mostraremos um pouco de como lidamos com agile no dia-a-dia da HE:labs."
-
-
   -
-    name: "Sylvestre Mergulhão e Rafael Lima"
-    photo: "syvestreerafa.png"
-    bio: "<strong>Sylvestre Mergulhão</strong> é programador web e fundador da HE:labs.  <br /> <br /> <strong>Rafael Lima</strong> é  empreendedor e desenvolvedor web. Fundador da BielSystems, co-fundador da HE:labs e do Startup DEV."
+    name: "Almoço"
+    time: "12h15"
+  -
+    time: "13h50"
+    name: "Barbara Wolff Dick"
+    photo: "barbara.png"
+    bio: "Fundou a Engage, junto com oito amigos há dois anos atrás, e desde lá se joga em projetos que lidem com autonomia e empoderamento da multidão. Iniciou o Mineo, junto com a Materia Brasil, e cada dia mais se convence de que só a arte salva."
+    company: "Engage e Pipa"
     links:
-      twitter: "https://twitter.com/smergulhao"
-      facebook: "https://www.facebook.com/sylvestre.mergulhao?fref=ts"
-      github: "https://github.com/mergulhao?source=cc"
-      site: "http://mergulhao.info/"
-    links2:
-      twitter: "https://twitter.com/rafaelp"
-      github: "https://github.com/rafaelp?source=cc"
-      slideshare: "http://www.slideshare.net/rafael_lima"
-      site: "http://rafael.adm.br/"
+      twitter: "https://twitter.com/barbarawdick"
+      linkedin: "http://www.linkedin.com/in/barbarawolffdick"
+      facebook: "https://www.facebook.com/barbarawolffdick"
+      behance: "http://www.behance.net/barbarawolffdick"
+      slideshare: "http://www.slideshare.net/barbarawolffdick"
     presentation:
-      title: ""
-      description: ""
+      title: "O Design que precisamos: livre, aberto e colaborativo"
+      description: "O Open Design está silenciosamente mudando a industria criativa, abrindo caminhos para uma economia mais colaborativa, tanto para designers e desenvolvedores, como para usuários e consumidores. Aplicando os princípios do software livre, as iniciativas também se baseiam na ideia de que a criatividade e, principalmente a sociedade, se beneficiam do livre acesso a informação. Então, com esse cenário se formando, como podemos aplicar esses processos disruptivos em busca de resultados extraordinários, abertos e livres, e começar a mudar a narrativa do Design? "
+  -
+    time: "14h40"
+    name: "Pedro Franceschi"
+    photo: "franceschi.png"
+    bio: "Pedro é desenvolvedor de software desde os 14 anos de idade e já palestrou em diversos eventos, dentre eles o TEDxSudeste. Foi o responsável por ensinar o Siri, aplicativo de voz do iPhone a falar Português."
+    company: "M4U"
+    links:
+      site: "http://www.pedrofranceschi.com/"
+      blog: "http://blog.pedrofranceschi.com/"
+      github: "http://github.com/pedrofranceschi"
+      twitter: "https://twitter.com/pedroh96"
+      linkedin: "http://www.linkedin.com/profile/view?id=52346147"
+    presentation:
+      title: "Por que você deve aprender Vim hoje."
+      description: "Uns o amam, muitos o odeiam, mas uma coisa é certa: quem usa o Vim não consegue voltar para um editor de texto diferente. Utilizar um editor de 20 anos de idade e sem interface gráfica pode parecer um absurdo em 2013, mas acredite: há excelentes motivos para cada vez mais pessoas abandonarem o TextMate e o SublimeText e (re)começarem com o Vim. Aprenda porque e como utilizá-lo do zero, assim como torná-lo mais usável e ficar estupidamente produtivo ao programar. Mas tome cuidado: once you go Vim, you'll never go back. Eu avisei, hein?.. :P"
+  -
+    name: "Cofee Break"
+    time: "15h30"
+  -
+    time: "16h"
+    name: "Alexandre Benitah"
+    photo: "beni.png"
+    bio: "Designer há 9 anos, Alexandre Benitah é especialista em Usabilidade & Arquitetura da Informação pela PUC e Design Thinking pela Infnet. Atualmente faz parte do time de UX da Globo.com, é um dos sócios da rede social Estou Jogando e anda de Longboard todo sábado de manhã."
+    company: "Globo.com"
+    links:
+      twitter: "https://twitter.com/benimesmo"
+      site: http://www.alexandrebenitah.com/"
+      facebook: "https://www.facebook.com/alexandrebenitah?fref=ts"
+      linkedin: "http://www.linkedin.com/pub/alexandre-benitah/28/9b3/a53"
+    presentation:
+      title: "Como gerar uma melhor experiência de uso? Entenda as necessidades do usuário!"
+      description: "Você sabe quais problemas os usuários enfrentam usando seu produto? Sabe quais as necessidades reais deles? Sabe o que faz eles desistirem de usar? Provavelmente não =D, mas existem algumas técnicas de pesquisa e arquitetura da informação que podem facilitar a vida dele tornando o seu produto muito melhor.Conheça algumas técnicas aplicadas no fluxo de cadastro da rede social Estou Jogando e como os resultados dessas técnicas melhoraram a experiência de uso deste processo."
+  -
+    time: "16h50"
+    name: "Klaus Wuestefeld"
+    photo: "klaus.png"
+    bio: "Klaus é palestrante em eventos como o Fórum Internacional de Software Livre, a OOPSLA nos EUA, ICOODB em Berlin, DevInSampa, QCon e Agile Brasil. Jogador de Go e chefe escoteiro, ele é pioneiro de Extreme Programming no país e autor do Prevayler, um dos projetos de software livre brasileiros mais conhecidos no exterior. É fundador da Objective Solutions e autor do manifesto da computação soberana."
+    company: "Objective Solutions e Sneer"
+    links:
+      twitter: "https://twitter.com/klauswuestefeld/"
+      blog: "http://klauswuestefeld.blogspot.com.br/"
+      facebook: "https://www.facebook.com/klauswuestefeld"
+      github: "https://github.com/klauswuestefeld"
+    presentation:
+      title: "Bem-Vindo à Computação Soberana, à Queda do Google e ao Fim do Facebook"
+      description: "Usuários de Software Livre ou não, todos não passavam de súditos. Subjugados por um punhado de autoridades da internet, conformavam-se às leis arbitrárias, ditadas por elas. Aí, as pessoas cansaram dessa palhaçada. Decidiram que seriam livres para compartilhar informação e recursos de hardware com seus amigos, da forma como bem entendessem. Essa liberdade ficou conhecida como computação soberana."
+
 # List of Sponsors
 sponsors:
   -
