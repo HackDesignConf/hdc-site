@@ -171,6 +171,9 @@ schedule:
     presentation:
       title: "Bem-Vindo à Computação Soberana, à Queda do Google e ao Fim do Facebook"
       description: "Usuários de Software Livre ou não, todos não passavam de súditos. Subjugados por um punhado de autoridades da internet, conformavam-se às leis arbitrárias, ditadas por elas. Aí, as pessoas cansaram dessa palhaçada. Decidiram que seriam livres para compartilhar informação e recursos de hardware com seus amigos, da forma como bem entendessem. Essa liberdade ficou conhecida como computação soberana."
+  -
+    name: "Encerramento"
+    time: "17h40"
 
 # List of Sponsors
 sponsors:
