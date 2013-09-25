@@ -737,6 +737,10 @@ h1.logo-name span {
 
 @media only screen and (max-width: 480px) {
   
+  .big-logo {
+    width:270px;
+  }
+  
   h2 {
     font-size: 1.2em !important;
   }
