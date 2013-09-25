@@ -312,20 +312,20 @@ h1.logo-name span {
    ========================================================================== */
 
 .hotels-item {
-    border: 1px solid #EBEBEB;
-    float: left;
-    height: 9em;
-    margin:  0.5em;
-    padding: 0.9em;
-    text-align: center;
-    width: 28%;
+  width: 28%;
+  border: 1px solid #ebebeb;
+  height: 9em;
+  margin:  0.5em;
+  padding: 0.9em;
+  text-align: center;
+  float: left;
 }
 
 .hotels-item img {
     border-radius: 250px 250px 250px 250px;
     float: left;
     margin-right: 20px;
-    width:130px;
+    width: 35%;
 }
 .hotels-item h4 {
     font-size: 1em;
@@ -683,17 +683,6 @@ Mailing
    Media Queries
    ========================================================================== */
 
-@media (max-width: 801px) {
-  .transport {
-    width: 93% !important;
-    border: 1px solid #ebebeb;
-    font-size: 16px !important;
-    height: auto !important;
-    margin:0 0 1% 0 !important;
-    padding: 3em 3% 3% 3%;
-  }
-}
-
 @media only screen and (min-width : 1024px) {
   .logo { width: 50%; }
   .offer { width:33%; }
@@ -713,9 +702,6 @@ Mailing
   .offer { width:100%; margin-bottom: 15px; margin-top: 20px; }
   .content { padding-top: 2em; }
   .locbg { margin-top: 2em !important; }
-  .hotels-item img { width: 75px; display: block; margin: 0 auto 15px; float: none; }
-  .hotels-item p { font-size: 0.8em !important; }
-  .hotels-item h4 { clear: both; }
   .what-to-do h2 { float: none; margin-bottom: 0; }
   .what-to-do a { margin-bottom: 20px; }
   .bus ul li { font-size: 0.7em; }
@@ -742,8 +728,29 @@ Mailing
   .form-contato .btn {margin-bottom:50px;}
 }
 
+@media (max-width: 801px) {
+  .hotels-item {
+    width: 41% !important;
+    margin:  0 1% 1% 1% !important;
+    padding: 3% !important;
+  }
+  .transport {
+    width: 93% !important;
+    border: 1px solid #ebebeb;
+    font-size: 16px !important;
+    height: auto !important;
+    margin:0 0 1% 0 !important;
+    padding: 3em 3% 3% 3%;
+  }
+}
 
 @media only screen and (max-width: 686px) {
+  
+  .hotels-item {
+    width: 93% !important;
+    height: auto !important;
+    margin:  0 0 15px 0 !important;
+  }
 
   .mailing-form {
     background-image: none;
@@ -918,21 +925,6 @@ Mailing
     padding: 5px 1%;
     text-align: center;
     text-transform: none;
-  }
-
-  ul .hotels-item {
-    margin: 0 0 20px;
-    padding: 0;
-    width: 100%;
-    overflow: hidden;
-    height: auto;
-  }
-
-  ul .hotels-item img {
-    border-radius: 250px 250px 250px 250px;
-    float: none;
-    margin: 15px 0;
-    width: 100px;
   }
 
   div.imageslogo {
