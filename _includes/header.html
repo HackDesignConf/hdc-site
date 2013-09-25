@@ -1,14 +1,10 @@
-<!-- HEADER -->
 <header class="header">
+
   <div class="wrapper altinha">
     <a class="logo-link" href="#" title="{{ site.conf.name }}">
        <a href="http://hackdesignconf.com.br//"><img src="./img/hdc_logo.png" alt="cobregratis" class="logo"></a>
     </a>
- 	  <!--h2 class="tagline">O HDC'13 é um evento organizado pela HE:labs. Para saber das novidades inscreva-se na nossa mailing.</h2-->
     <div class="call-action-area">
-
-<!--       <span class="price">Only $100</span>
-      <a href="http://eventick.com.br" class="call-action-link" title="Register now!">Register now!</a> -->
       <div id="sticky-anchor"></div>
     </div>
   </div>
@@ -23,44 +19,35 @@
     </div>
   </div>
   
+  <style type="text/css">
 
-
-  <style>
-  #sticky {
+    #sticky {
   
-  }
-  #sticky.stick {
-      position: fixed;
-      top: 32px;
-      z-index: 10000;
-  }
+    }
+    #sticky.stick {
+        position: fixed;
+        top: 32px;
+        z-index: 10000;
+    }
+
   </style>
 
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-
-  <script>
-  function sticky_relocate() {
-    var window_top = $(window).scrollTop();
-    var div_top = $('#sticky-anchor').offset().top;
-    if (window_top > div_top) {
-      $('#sticky').addClass('stick');
-    } else {
-      $('#sticky').removeClass('stick');
+  <script type="text/javascript">
+    function sticky_relocate() {
+      var window_top = $(window).scrollTop();
+      var div_top = $('#sticky-anchor').offset().top;
+      if (window_top > div_top) {
+        $('#sticky').addClass('stick');
+      } else {
+        $('#sticky').removeClass('stick');
+      }
     }
-  }
 
-  $(function() {
-    $(window).scroll(sticky_relocate);
-    sticky_relocate();
-  });
+    $(function() {
+      $(window).scroll(sticky_relocate);
+      sticky_relocate();
+    });
   </script>
+
 </header>
-
-
-
-<!--  / HEADER -->
-
-
-
-
-

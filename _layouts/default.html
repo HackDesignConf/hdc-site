@@ -31,31 +31,27 @@
 
 </head>
 <body>
+
   <div class="global">
 
     {% include header.html %}
 
-    <!-- CONTENT -->
     <section class="content" id="content">
       <div class="wrapper">
         {{ content }}
       </div>
     </section>
 
-
-    <!--wufoo-->
     <div id="wufoo-anchor" style="height:70px"></div>
-      <div id="wufoo">
-        <div class="wrapper">
-          <div class="section-box" style="background:#fef4e0; border-radius: 10px; margin-bottom:1em">
-             <h2 class="section-title"><span><</span> Contato <span>></span></h2>
-             <div id="wufoo-m7p8a3" >
-             </div>
-
-          </div>
+    <div id="wufoo">
+      <div class="wrapper">
+        <div class="section-box sec-wf">
+           <h2 class="section-title"><span><</span> Contato <span>></span></h2>
+           <div id="wufoo-m7p8a3" ></div>
         </div>
       </div>
-      <script type="text/javascript">var m7p8a3;(function(d, t) {
+    </div>
+    <script type="text/javascript">var m7p8a3;(function(d, t) {
       var s = d.createElement(t), options = {
       'userName':'helabs',
       'formHash':'m7p8a3',
@@ -69,98 +65,97 @@
       var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
       try { m7p8a3 = new WufooForm();m7p8a3.initialize(options);m7p8a3.display(); } catch (e) {}};
       var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
-      })(document, 'script');</script>
+      })(document, 'script');
+    </script>
 
-      <!--/wufoo-->
-    <!-- / CONTENT -->
-    <div class="containner cover-mailing-page">
-      <div id="cover">
-        <div class="mailing-form">
-          <h2>Fique por dentro das novidades do evento!</h2>
-          <form style="width:100%" action="http://clientela.us2.list-manage.com/subscribe/post?u=78c4c9df5db794cd68f358456&amp;id=020e7504d2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
-            <input type="email" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Insira seu email e faça parte da comunidade" required="">
-            <input type="submit" value="Fazer Parte" name="subscribe" id="mc-embedded-subscribe" class="button">
-          </form>
+    <div id="cover-mailing">
+      <div class="containner">
 
-          <p>
-            <a href="/privacidade" target="_blank" title="Política de Privacidade">Política de Privacidade</a> /
-            <a href="http://helabs.us2.list-manage.com/unsubscribe?u=78c4c9df5db794cd68f358456&amp;id=020e7504d2" target="_blank" title="Retirar o e-mail da lista">Retirar o e-mail da lista</a>
-          </p>
-        </div>
+        <p class="sup">
+          Fique por dentro das novidades do evento!
+        </p>
+
+        <form action="http://clientela.us2.list-manage.com/subscribe/post?u=78c4c9df5db794cd68f358456&amp;id=020e7504d2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          <input type="email" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Seu email" required>
+          <input type="submit" value="Assinar" name="subscribe" id="mc-embedded-subscribe" class="button">
+        </form>
+
+        <ul>
+          <li><a href="http://helabs.us2.list-manage.com/unsubscribe?u=78c4c9df5db794cd68f358456&id=020e7504d2" target="_blank" title="Retirar o e-mail da lista">Retirar o e-mail da lista</a></li>
+        </ul>
+
       </div>
-    </div>
-  </div>
-<div id="footer-anchor"></div>
-  <footer class="footer" id="footer">
-    <h1 class="comunidades">COMUNIDADES</h1>
-    <div class="imageslogo">
-      <a href="http://horaextra.org">
-        <img src="img/logo_horaextra_off.png" alt="Logo Horaextra Off"></a>
-    </div>
-    <div class="imageslogo">
-      <a href="http://smallactsmanifesto.org/">
-      <img src="img/logo-smallacts.png" alt="Logo Smallacts"></a>
-    </div>
-    <div class="imageslogo">
-      <a href="http://dojorio.wordpress.com/">
-      <img src="img/logo_dojorio_off.png"  alt="Logo Dojorio Off"></a>
-    </div>
-    <div class="imageslogo">
-      <a href="http://www.riojug.org/blog/">
-    <img src="img/logo_riojug_off.png"  alt="Logo Riojug Off"></a>
-    </div>
-    <div class="imageslogo">
-      <a href="http://www.rubyinside.com.br/">
-    <img src="img/logo_rubyinside_off.png" alt="Logo Rubyinside Off"></a>
-    </div>
-    <div class="imageslogo">
-      <a href="http://rubyonrio.org/">
-     <img src="img/logo-ruby-on-rio.png" alt="Logo Ruby On Rio"></a>
-    </div>
-    <div class="imageslogo">
-      <a href="http://pythonrio.org/">
-    <img src="img/logo_pythonrio_off.png" alt="Logo Pythonrio Off"></a>
-    </div>
-    <div class="imageslogo">
-      <a href="http://forkinrio.appspot.com/">
-      <img src="img/logo-forkinrio.png"  alt="Logo Forkinrio"></a>
-    </div>
-    <div class="imageslogo">
-     <a href="http://pythoncampus.org">
-      <img src="img/logo-pythoncampus.png"  alt="Logo Pythoncampus"></a>
-    </div>
+    </div> <!-- /cover-mailing -->
 
-    <div class="imageslogo">
-     <a href="http://www.arduinrio.cc/">
-      <img src="img/logo-arduinoinrio.png"  alt="Logo Arduinoinrio"></a>
-    </div>
-    <div class="imageslogo">
-     <a href="http://selfrj.org//">
-      <img src="img/logo-selfrj.png"  alt="self Rj;"></a>
-    </div>
-    <div class="imageslogo">
-     <a href="http://riojs.org/">
-      <img src="img/logo-riojs.png"  alt="rio.js;"></a>
-    </div>
-    <div class="imageslogo">
-     <a href="http://kolaborativa.com/">
-      <img src="img/logo-kolaborativa.png"  alt="kolaborativa;"></a>
-    </div>
-    <div class="imageslogo">
-     <a href="http://www.python.org.br/">
-      <img src="img/logo-pytonbrazil.png"  alt="pytonbrazil"></a>
-    </div>
-    <div class="imageslogo">
-     <a href="http://www.python.org.br/">
-      <img src="img/logo-pers.png"  alt="pytonbrazil"></a>
-    </div>
-   
+  <div id="footer-anchor"></div>
+    <footer class="footer" id="footer">
 
-  </footer>
+      <h1 class="comunidades">COMUNIDADES</h1>
+      <div class="imageslogo">
+        <a href="http://horaextra.org">
+          <img src="img/logo_horaextra_off.png" alt="Logo Horaextra Off"></a>
+      </div>
+      <div class="imageslogo">
+        <a href="http://smallactsmanifesto.org/">
+        <img src="img/logo-smallacts.png" alt="Logo Smallacts"></a>
+      </div>
+      <div class="imageslogo">
+        <a href="http://dojorio.wordpress.com/">
+        <img src="img/logo_dojorio_off.png"  alt="Logo Dojorio Off"></a>
+      </div>
+      <div class="imageslogo">
+        <a href="http://www.riojug.org/blog/">
+      <img src="img/logo_riojug_off.png"  alt="Logo Riojug Off"></a>
+      </div>
+      <div class="imageslogo">
+        <a href="http://www.rubyinside.com.br/">
+      <img src="img/logo_rubyinside_off.png" alt="Logo Rubyinside Off"></a>
+      </div>
+      <div class="imageslogo">
+        <a href="http://rubyonrio.org/">
+       <img src="img/logo-ruby-on-rio.png" alt="Logo Ruby On Rio"></a>
+      </div>
+      <div class="imageslogo">
+        <a href="http://pythonrio.org/">
+      <img src="img/logo_pythonrio_off.png" alt="Logo Pythonrio Off"></a>
+      </div>
+      <div class="imageslogo">
+        <a href="http://forkinrio.appspot.com/">
+        <img src="img/logo-forkinrio.png"  alt="Logo Forkinrio"></a>
+      </div>
+      <div class="imageslogo">
+       <a href="http://pythoncampus.org">
+        <img src="img/logo-pythoncampus.png"  alt="Logo Pythoncampus"></a>
+      </div>
 
-  <!-- / FOOTER -->
+      <div class="imageslogo">
+       <a href="http://www.arduinrio.cc/">
+        <img src="img/logo-arduinoinrio.png"  alt="Logo Arduinoinrio"></a>
+      </div>
+      <div class="imageslogo">
+       <a href="http://selfrj.org//">
+        <img src="img/logo-selfrj.png"  alt="self Rj;"></a>
+      </div>
+      <div class="imageslogo">
+       <a href="http://riojs.org/">
+        <img src="img/logo-riojs.png"  alt="rio.js;"></a>
+      </div>
+      <div class="imageslogo">
+       <a href="http://kolaborativa.com/">
+        <img src="img/logo-kolaborativa.png"  alt="kolaborativa;"></a>
+      </div>
+      <div class="imageslogo">
+       <a href="http://www.python.org.br/">
+        <img src="img/logo-pytonbrazil.png"  alt="pytonbrazil"></a>
+      </div>
+      <div class="imageslogo">
+       <a href="http://www.python.org.br/">
+        <img src="img/logo-pers.png"  alt="pytonbrazil"></a>
+      </div>
+ 
+    </footer>
 
-  </div>
+  </div> <!-- /global -->
 
   <script src="js/jquery.js"></script>
   <script src="js/jquery.scrollTo.js"></script>
@@ -168,23 +163,21 @@
   <script type="text/javascript" src="/js/function.js"></script>
 
   {% if site.conf.address != '' %}
-  <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
-  <script src="js/map.js"></script>
+    <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <script src="js/map.js"></script>
   {% endif %}
 
-  <!-- GOOGLE ANALYTICS -->
   <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', '{{ site.site.googleanalytics }}']);
-      _gaq.push(['_trackPageview']);
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', '{{ site.site.googleanalytics }}']);
+    _gaq.push(['_trackPageview']);
 
-      (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
+    (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
   </script>
-  <!-- /GOOGLE ANALYTICS -->
 
 </body>
 </html>

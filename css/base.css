@@ -1,15 +1,12 @@
 /* =============================================================================
    MAIN LAYOUT
    ========================================================================== */
-* {
-  outline: none;
- }
 
 html {
-  background:#EBEBEB;
-  font:9px/1em;
-  font-family: 'Ubuntu', sans-serif;
-  color:#777;
+  background: #ebebeb;
+  font: 9px/1em;
+  font-family: 'Ubuntu', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #666;
 }
 
 .wrapper {
@@ -31,11 +28,10 @@ a:hover img {
 }
 
 
-
-
 /* =============================================================================
    BASIC STYLES
    ========================================================================== */
+
 h1, h2, h3, h4, h5, h6 {color:#2b2b2b;}
 
 h3, h4 {
@@ -46,38 +42,41 @@ h3, h4 {
 }
 
 h2 {
-    font-size: 2.1em;
-    font-weight: 500;
-    margin: 1em 5px;
-    padding-bottom: 0.2em;
-    text-align: center;
+  font-size: 2.1em;
+  font-weight: 500;
+  margin: 1em 5px;
+  padding-bottom: 0.2em;
+  text-align: center;
 }
 
 h2 span {
-    color: #FF8D1D;
-    font-family: monospace;
-    font-size: 1.5em;
-    font-weight: bold;
+  color: #FF8D1D;
+  font-family: monospace;
+  font-size: 1.5em;
+  font-weight: bold;
 }
 
 h3 {font-size: 1.3em;}
 h4 {font-size: 1.4em}
+
 p {
   font-size:1.6em;
   line-height:1.6em;
   margin-bottom: 1.4em;
 }
+
 .photo {
-    /*border-radius: 250px 250px 250px 250px;*/
-    box-shadow: 0 19px 4px -12px;
-    max-width: 100%;
-    position: relative;
-    top: -1px;
+  box-shadow: 0 19px 4px -12px;
+  max-width: 100%;
+  position: relative;
+  top: -1px;
 }
+
 
 /* =============================================================================
    NAVIGATION
    ========================================================================== */
+
 nav {
     background: none repeat scroll 0 0 #291C15;
     color: white;
@@ -93,15 +92,18 @@ nav {
   display: inline-block;
   margin-right:15px;
 }
+
 .nav-link {color:#fff;font-size: 0.8em;}
 .nav-link:active,
 .nav-link:hover,
 .nav-link:focus,
 .nav-link.current {color:#fff;}
 
+
 /* =============================================================================
    HEADER
    ========================================================================== */
+
 .header {
   padding: 100px 0 100px;
   text-align:center;
@@ -113,6 +115,7 @@ nav {
   background:url("../img/bg.jpg");
   background-size:100%;
 }
+
 .logo-name {
   margin-bottom: 0;
   font-size: 10em;
@@ -297,25 +300,32 @@ h1.logo-name span {
     padding: 1.2em;
 }
 
+.sec-wf {
+  background: #fef4e0;
+  border-radius: 10px;
+  margin-bottom: 40px
+}
+
+
 /* =============================================================================
    HOTELS
    ========================================================================== */
 
 .hotels-item {
-    border: 1px solid #EBEBEB;
-    float: left;
-    height: 9em;
-    margin: 0.5em;
-    padding: 0.9em;
-    text-align: center;
-    width: 28%;
+  width: 28%;
+  border: 1px solid #ebebeb;
+  height: 9em;
+  margin:  0.5em;
+  padding: 0.9em;
+  text-align: center;
+  float: left;
 }
 
 .hotels-item img {
     border-radius: 250px 250px 250px 250px;
     float: left;
     margin-right: 20px;
-    width:130px;
+    width: 35%;
 }
 .hotels-item h4 {
     font-size: 1em;
@@ -360,15 +370,13 @@ h1.logo-name span {
   }
 
 .transport {
-    border: 1px solid #EBEBEB;
-    float: left;
-    font-size: 0.9em;
-    height: 465px;
-    margin-bottom: 1em;
-    margin-right: 1em;
-    padding: 3em 0.5em 0.5em;
-    text-align: center;
-    width: 20.5%;
+  width: 20%;
+  border: 1px solid #ebebeb;
+  font-size: 14px;
+  height: 465px;
+  margin:0 1% 0 1%;
+  padding: 3em 1% 0 1%;
+  float: left;
 }
 
 
@@ -498,7 +506,7 @@ h1.logo-name span {
 }
 .schedule-tbl .schedule-time {text-align:center;}
 .schedule-slot {
-  width: 250px;
+  width: 350px;
   font-size:16px;
 }
 .speakers-company {
@@ -595,77 +603,6 @@ h1.logo-name span {
 .form-contato textarea {height:300px;}
 .form-contato .btn {float:right;}
 
-.cover-mailing-page{
-  background: url("../img/mailing-cover-bg.jpg") repeat-x left top;
-}
-
-#cover {
-  width: 80%;
-  margin: 0 auto;
-}
-
-.mailing-form {
-  background-image: url("../img/mailing-mauro.png");
-  background-position: left 40px;
-  background-repeat: no-repeat;
-  padding-left: 200px;
-  padding-top: 100px;
-  height: 175px;
-}
-
-.mailing-form h2 {
-  color:#b80606;
-  font-size:29px;
-  font-weight: bold;
-  margin-top: -40px;
-  text-transform:none;
-  width:100%;
-  line-height:30px;
-  margin-bottom:35px;
-}
-
-.cover-mailing-page input[type="text"], 
-.cover-mailing-page input[type="email"] {
-    background: none repeat scroll 0 0 white;
-    border: 1px solid #C7C7C7;
-    border-radius: 6px 6px 6px 6px;
-    float: left;
-    font-size: 14px;
-    margin: 0;
-    padding: 0.7em;
-    width: 50%;
-}
-
-.mailing-form p{
-  margin-top:15px;
-}
-
-.mailing-form p a{
-  font-size:11px;
-  color:#666;
-}
-
-.cover-mailing-page input[type="submit"] {
-    background-color: #B80606;
-    border: 0 none;
-    border-radius: 6px;
-    color: #FFFFFF;
-    font-size: 12px;
-    font-weight: 700;
-    margin: 0 0 0 5px;
-    padding: 0 8px;
-    height: 45px;
-    line-height: 45px;
-    float: left;
-    display: block;
-    text-transform: uppercase;
-}
-
-.cover-mailing-page div.containner input[type="submit"]:hover{
-  opacity:0.9;
-}
-
-
 .form-foot {
   color: #000;
 }
@@ -679,6 +616,68 @@ h1.logo-name span {
 .wufoo li label.desc {
   color: #000 !important;
 }
+
+
+/* ====================
+Mailing
+==================== */
+
+#cover-mailing {
+  background: #f3f3f3 url("/images/mailing-cover-bg.jpg") bottom center repeat-x;
+  padding: 50px 0 30px 0;
+  text-align: center;
+}
+
+#cover-mailing .sup {
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 5px 0 20px 0;
+  font-size: 24px;
+}
+
+#cover-mailing input[type="text"],
+#cover-mailing input[type="email"] {
+  border-radius: 4px;
+  width: 300px;
+  height: 44px;
+  line-height: 44px;
+  font: normal 17px 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  border: 1px solid #a63500;
+  padding: 0 15px 0 15px;
+  background: #fff;
+  display: inline-block;
+  margin: 0 0 25px 0;
+  outline: none;
+  float: none;
+}
+
+#cover-mailing input[type="submit"] {
+  box-shadow: 0 2px 4px #e3e3e3;
+  border-radius: 4px;
+  width: 100px;
+  height: 46px;
+  line-height: 44px;
+  font: normal 17px 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding: 0 15px 0 15px;
+  background: #a63500;
+  display: inline-block;
+  margin: 0 0 0 5px;
+  cursor: pointer;
+  color: #fff;
+  float: none;
+}
+
+#cover-mailing input[type="submit"]:hover { opacity: .8; }
+
+#cover-mailing li {
+  font-size: 14px;
+  margin: 0 20px 0 0;
+  display: inline;
+}
+
+#cover-mailing a { color: #8c8c8c; }
+
+
 
 /* =============================================================================
    Media Queries
@@ -703,15 +702,9 @@ h1.logo-name span {
   .offer { width:100%; margin-bottom: 15px; margin-top: 20px; }
   .content { padding-top: 2em; }
   .locbg { margin-top: 2em !important; }
-  .hotels-item img { width: 75px; display: block; margin: 0 auto 15px; float: none; }
-  .hotels-item p { font-size: 0.8em !important; }
-  .hotels-item h4 { clear: both; }
-  .transport h4 { font-size: 1em; line-height: 1.4em; }
   .what-to-do h2 { float: none; margin-bottom: 0; }
   .what-to-do a { margin-bottom: 20px; }
-  .transport p { font-size: 0.7em; }
   .bus ul li { font-size: 0.7em; }
-  .transport { margin-right: 2%; padding: 3em 2% 0.5em; width: 18%; height: auto; }
   .sponsor-item img { width: 75px; }
   .sponsor-item .email { margin-top: 5px; }
   /* schedule */
@@ -735,7 +728,54 @@ h1.logo-name span {
   .form-contato .btn {margin-bottom:50px;}
 }
 
+@media (max-width: 801px) {
+  .hotels-item {
+    width: 41% !important;
+    margin:  0 1% 1% 1% !important;
+    padding: 3% !important;
+  }
+  .transport {
+    width: 93% !important;
+    border: 1px solid #ebebeb;
+    font-size: 16px !important;
+    height: auto !important;
+    margin:0 0 1% 0 !important;
+    padding: 3em 3% 3% 3%;
+  }
+}
+
+@media only screen and (max-width: 686px) {
+  
+  .hotels-item {
+    width: 93% !important;
+    height: auto !important;
+    margin:  0 0 15px 0 !important;
+  }
+
+  .mailing-form {
+    background-image: none;
+    width: 96%;
+    margin: 0;
+    padding: 0 2% 0 2%;
+  }
+  
+  #cover-mailing .sup {
+    font-size: 15px;
+  }
+
+  #cover-mailing input[type="text"],
+  #cover-mailing input[type="email"] {
+    width: 170px;
+  }
+
+}
+
+
 @media only screen and (max-width: 480px) {
+  
+  .big-logo {
+    width:270px;
+  }
   
   h2 {
     font-size: 1.2em !important;
@@ -769,8 +809,6 @@ h1.logo-name span {
   .bginfo{
     display: none;
   }
-
-  .cover-mailing-page { display: none; }
   
   .logo{
      /* float: left; */
@@ -849,14 +887,6 @@ h1.logo-name span {
     margin: 0;
   }
 
-  .transport {
-    width: 100%;
-    margin-bottom: 15px;
-    border: none;
-    padding: 30px 0 0;
-    height: auto;
-  }
-
   .full h4 {
     font-size: 14px;
   }
@@ -895,21 +925,6 @@ h1.logo-name span {
     padding: 5px 1%;
     text-align: center;
     text-transform: none;
-  }
-
-  ul .hotels-item {
-    margin: 0 0 20px;
-    padding: 0;
-    width: 100%;
-    overflow: hidden;
-    height: auto;
-  }
-
-  ul .hotels-item img {
-    border-radius: 250px 250px 250px 250px;
-    float: none;
-    margin: 15px 0;
-    width: 100px;
   }
 
   div.imageslogo {

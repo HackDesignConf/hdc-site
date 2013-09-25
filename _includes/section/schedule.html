@@ -9,8 +9,8 @@
       <table>
         <thead>
           <tr>
-            <!--th class="schedule-time">Hora</th-->
-            <th class="schedule-slot">Palestra</th>
+            <th class="schedule-time">Hora</th>
+            <th class="schedule-slot">Atividade</th>
             <th class="schedule-description">Descrição</th>
           </tr>
         </thead>
@@ -19,9 +19,9 @@
           {% for slot in site.schedule %}
             {% if slot.presentation %}
               <tr>
-                <!--td class="schedule-time">{{ slot.presentation.time }}</td-->
-                <td class="schedule-slot"><span class="speaker-photo"><img class="photo" src="./img/palestrantes/{{ slot.photo }}" alt="{{ slot.name }}" /></span> {{ slot.presentation.title }}</td>
-                <td class="schedule-description">{{ slot.presentation.description }}</td>
+                <td class="schedule-time">{{ slot.time }}</td>
+                <td class="schedule-slot"><span class="speaker-photo"><img class="photo" src="./img/palestrantes/{{ slot.photo }}" alt="{{ slot.name }}" /></span> <strong>{{ slot.presentation.title }}</strong></td>
+                <td class="schedule-description">{{ slot.presentation.description }} ({{ slot.name }})</td>
               </tr>
             {% else %}
               <tr class="schedule-other">
