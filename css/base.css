@@ -409,7 +409,7 @@ h1.logo-name span {
 .underground {
     background: url("../img/underground.png") no-repeat scroll center top transparent;
 }
-  
+
 /* =============================================================================
    SPEAKER
    ========================================================================== */
@@ -509,6 +509,12 @@ h1.logo-name span {
   width: 350px;
   font-size:16px;
 }
+
+.schedule-slot strong {
+  float: left;
+  width: 80%;
+}
+
 .speakers-company {
   display: block;
   font-size:12px;
@@ -538,10 +544,10 @@ h1.logo-name span {
    ========================================================================== */
 
 .comunidades{
-  color: white; 
-  float: left; 
-  width: 100%; 
-  border-bottom: 1px dashed orange; 
+  color: white;
+  float: left;
+  width: 100%;
+  border-bottom: 1px dashed orange;
   padding-bottom: 14px;
 }
 .sponsor-item, .partner-item {
@@ -558,7 +564,7 @@ h1.logo-name span {
 }
 
 .sponsors-list li {
-  
+
   float:left;
   margin-bottom:40px;
   margin-left:37px;
@@ -688,10 +694,10 @@ Mailing
   .offer { width:33%; }
 }
 
-@media only screen and (min-width:800px) and  (max-width : 1024px) {  
-  .local { margin-left: 1em; padding-left: 40px; padding-top: 18px; text-align: left; margin-top: 3px; }  
+@media only screen and (min-width:800px) and  (max-width : 1024px) {
+  .local { margin-left: 1em; padding-left: 40px; padding-top: 18px; text-align: left; margin-top: 3px; }
   .offer { width:33%; }
-  .logo { width: 50%; }  
+  .logo { width: 50%; }
   .wrapper { width: 100%; padding: 0 20px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; box-sizing: border-box; }
   .about { margin: 0;}
 }
@@ -745,7 +751,7 @@ Mailing
 }
 
 @media only screen and (max-width: 686px) {
-  
+
   .hotels-item {
     width: 93% !important;
     height: auto !important;
@@ -758,7 +764,7 @@ Mailing
     margin: 0;
     padding: 0 2% 0 2%;
   }
-  
+
   #cover-mailing .sup {
     font-size: 15px;
   }
@@ -772,11 +778,11 @@ Mailing
 
 
 @media only screen and (max-width: 480px) {
-  
+
   .big-logo {
     width:270px;
   }
-  
+
   h2 {
     font-size: 1.2em !important;
   }
@@ -809,7 +815,7 @@ Mailing
   .bginfo{
     display: none;
   }
-  
+
   .logo{
      /* float: left; */
       width: 100%;
@@ -819,7 +825,7 @@ Mailing
     width:100%;
     margin-bottom:25px;
   }
-  
+
   /* nav */
   nav {display: none;}
   .header {padding:20px 0;}
@@ -883,7 +889,7 @@ Mailing
     margin: 0;
   }
 
-  .fifty.important-notice-home ul { 
+  .fifty.important-notice-home ul {
     margin: 0;
   }
 
@@ -942,11 +948,11 @@ Mailing
     text-align: center;
   }
 
-  table {  
+  table {
     width: 100%;
   }
 
-  .schedule-description {  
-    display: none; 
+  .schedule-description {
+    display: none;
   }
 }
