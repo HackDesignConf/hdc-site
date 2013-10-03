@@ -112,10 +112,10 @@ schedule:
     time: "12h15"
   -
     time: "13h50"
-    name: "Barbara Wolff Dick"
-    photo: "barbara.png"
-    bio: "Fundou a Engage, junto com oito amigos há dois anos atrás, e desde lá se joga em projetos que lidem com autonomia e empoderamento da multidão. Iniciou o Mineo, junto com a Materia Brasil, e cada dia mais se convence de que só a arte salva."
-    company: "Engage e Pipa"
+    name: "Lula Rocha"
+    photo: "lula.png"
+    bio: "Designer com 20 anos de experiência em Identidade Visual, Produção Gráfica, Tratamento de Imagem, Desenho Vetorial e Webdesign. Formado em Comunicação Visual e Desenho Industrial pela PUC-Rio. Mestre em Design pela Central Saint Martins College of Art & Design. Professor das disciplinas de Projeto, Criação e Tratamento de Imagens do Departamento de Artes & Design da PUC-Rio desde 1991. Professor da Pós-graduação em Design de Estamparia do SENAI/CETIQT-RJ."
+    company: "Metapix"
     links:
       twitter: "https://twitter.com/barbarawdick"
       linkedin: "http://www.linkedin.com/in/barbarawolffdick"
@@ -123,8 +123,8 @@ schedule:
       behance: "http://www.behance.net/barbarawolffdick"
       slideshare: "http://www.slideshare.net/barbarawolffdick"
     presentation:
-      title: "O Design que precisamos: livre, aberto e colaborativo"
-      description: "O Open Design está silenciosamente mudando a industria criativa, abrindo caminhos para uma economia mais colaborativa, tanto para designers e desenvolvedores, como para usuários e consumidores. Aplicando os princípios do software livre, as iniciativas também se baseiam na ideia de que a criatividade e, principalmente a sociedade, se beneficiam do livre acesso a informação. Então, com esse cenário se formando, como podemos aplicar esses processos disruptivos em busca de resultados extraordinários, abertos e livres, e começar a mudar a narrativa do Design? "
+      title: "Metapix - Soluções e desafios na construção de um site de cursos e tutoriais online"
+      description: "Lula Rocha apresenta sua experiência no desenvolvimento do Site Metapix que oferece um serviço de cursos e tutoriais online sobre ferramentas de design gráfico e manipulação de imagens. Como surgiu a ideia, como foi o processo de planejamento e design inicial, como o site vem sendo melhorado, como o conteúdo é desenvolvido e os desafios para os próximos anos são alguns exemplos de tópicos que serão abordados."
   -
     time: "14h40"
     name: "Pedro Franceschi"
