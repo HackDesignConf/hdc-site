@@ -523,7 +523,7 @@ h1.logo-name span {
 #schedule
 .schedule-tbl {
   background:#fff;
-  border:0px solid #ccc;
+  border:1px solid #ccc;
   border-radius: 4px;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,.15);
 }
@@ -682,6 +682,8 @@ Mailing
 }
 
 #cover-mailing a { color: #8c8c8c; }
+
+
 
 
 

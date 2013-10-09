@@ -12,6 +12,8 @@
         <li class="speakers-item">
           <span class="speaker-photo"><img class="photo" src="./img/palestrantes/{{ speaker.photo }}" alt="{{ speaker.name }}" /></span>
 
+
+         
           <h3 class="speech-title">
             {% if speaker.presentation.time %}
               <span class="speech-time">{{ speaker.presentation.time }}</span>
@@ -20,6 +22,16 @@
 
           <h3 class="speakers-name">{{ speaker.name }}</h3>
           <p class="speakers-bio">{{ speaker.bio }}</p>
+          
+          <div class="title">
+            <span class="speech-title">{{ speaker.presentation.title }}
+          </div>
+
+            <div class="description">
+            <span class="speech-presentation">{{ speaker.presentation.description }}
+          </div>
+
+
           <p>
             &#8226;
             {% if speaker.links.site %}
@@ -69,15 +81,20 @@
             {% if speaker.links2.github %}
               <a href="{{ speaker.links2.github }}" target="_blank">Github</a> &#8226; 
             {% endif %}
+            <section class="shedule">
             {% if speaker.links2.behance %}
               <a href="{{ speaker.links2.behance }}" target="_blank">Behance</a> &#8226; 
             {% endif %}
+
         </li>
+
       {% endif %}
     {% endfor %}
+    
 
       
     </ul>
+
 
   </section>
   <!-- / SPEAKERS -->
