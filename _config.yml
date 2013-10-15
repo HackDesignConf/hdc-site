@@ -47,16 +47,22 @@ schedule:
     time: "9h"
     photo: "syvestreerafa.png"
     bio: "<strong>Sylvestre Mergulhão</strong> é programador web e fundador da HE:labs.  <br /> <br /> <strong>Rafael Lima</strong> é  empreendedor e desenvolvedor web. Fundador da BielSystems, co-fundador da HE:labs e do Startup DEV."
+    lecture: "hahhaha"
     links:
+      palestra: "/palestras/HDC-palestra-rafael_lima-e-sylvestre_mergulhao.pdf"
       twitter: "https://twitter.com/smergulhao"
       facebook: "https://www.facebook.com/sylvestre.mergulhao?fref=ts"
       github: "https://github.com/mergulhao?source=cc"
       site: "http://mergulhao.info/"
+      lecture: "/palestras/HDC-palestra-rafael_lima-e-sylvestre_mergulhao.pdf"
+      
     links2:
       twitter: "https://twitter.com/rafaelp"
       github: "https://github.com/rafaelp?source=cc"
       slideshare: "http://www.slideshare.net/rafael_lima"
       site: "http://rafael.adm.br/"
+      palestra: "/palestras/HDC-palestra-rafael_lima-e-sylvestre_mergulhao.pdf"
+
     presentation:
       title: "Valorize-se! Como crescer profissionalmente e trabalhar em um ambiente melhor"
       description: "Nesta breve palestra Mergulhão e Rafael irão dar dicas sobre como um profissional de tecnologia pode crescer, ser melhor e por consequência ganhar mais dinheiro trabalhando com o que gosta. O foco da palestra não é negócios, mas sim como se tornar um profissional melhor e mais valorizado, quais são as pequenas coisas que podem mudar seu patamar de vida, como fazer seu marketing pessoal e como hackear o sistema em prol de um ambiente melhor. Útil para todos os programadores e designers que trabalham com web."
@@ -69,6 +75,7 @@ schedule:
     links:
       linkedin: "http://www.linkedin.com/pub/emilio-simoni/10/9a6/242"
       facebook: "https://www.facebook.com/emilio.simoni"
+      palestra: "http://prezi.com/o3srfwusoetu/?utm_campaign=share&utm_medium=copy"
     presentation:
       title: "Ecossistema Underground"
       description: "Como surgem os bankers, como são formadas as quadrilhas, sistemas de fraude, mercado negro, meios de comunicação e analise macro de fraudes."
@@ -81,6 +88,7 @@ schedule:
     links:
       linkedin: "http://www.linkedin.com/in/victormontalvao"
       site: "http://victormontalvao.com"
+      palestra: "/palestras/HDC-palestra-victor_montalvao.pdf"
     presentation:
       title: "Do papel ao usuário: boas experiências são projetadas a 4 mãos"
       description: 'Que desenvolvedor nunca se revoltou com as "pirações" daquele designer loucão que só faz "firulas"? E que designer nunca se revoltou com aquele "NÃO" bem sonoro de um desenvolvedor se recusando a implementar alguma coisa super legal que todos os sites gringos estão usando? Dura realidade nossa de todos os dias... Mas, e o usuário, onde fica nessa história? Estamos projetando/desenvolvendo soluções realmente funcionais para ele? Afinal, é para satisfazer a esse cara que trabalhamos, correto?Que tal, juntos, fazermos uma reflexão sobre nossas atitudes enquanto profissionais de tecnologia e pensarmos (de coração) em como unir forças em prol de uma web melhor, com experiências impactantes e verdadeiramente boas para quem realmente interessa, o usuário.'
@@ -95,6 +103,7 @@ schedule:
       facebook: "https://www.facebook.com/fla.fortes"
       linkedin: "http://www.linkedin.com/profile/view?id=75313322"
       github: "https://github.com/FlaviaFortes"
+      palestra: "/palestras/HDC-palestra-flavia_fortes-e-mauro_george.pdf"
     links2:
       twitter: "https://twitter.com/maurogeorge"
       facebook: "hhttp://www.facebook.com/mauro.george.ot"
@@ -104,6 +113,7 @@ schedule:
       slideshare: "http://www.slideshare.net/maurogeorge"
       blog: "http://groselhas.maurogeorge.com.br/"
       site: "http://maurogeorge.com.br/"
+      palestra: "/palestras/HDC-palestra-flavia_fortes-e-mauro_george.pdf"
     presentation:
       title: "O cliente e o time juntos por um só objetivo!"
       description: "Por que investir em times multidisciplinares? Qual a importância de manter uma boa comunicação entre o time e o cliente? Onde começa e termina o papel do cliente no projeto? Por que o time deve quebrar e pontuar tarefas conjuntamente? Qual a importância de desenhar as telas junto ao cliente? Por que o código deve ser coletivo? Qual é a importância das retrospectivas? Por que testes automatizados e integração contínua são indispensáveis para o projeto? Mostraremos um pouco de como lidamos com agile no dia-a-dia da HE:labs."
@@ -121,7 +131,7 @@ schedule:
       linkedin: "http://www.linkedin.com/in/barbarawolffdick"
       facebook: "https://www.facebook.com/lula.rochadesign?fref=ts"
       site: "http://metapix.com.br/"
-     
+      palestra: /palestras/HDC-palestra-lula_Rocha.pdf"
     presentation:
       title: "Metapix - Soluções e desafios na construção de um site de cursos e tutoriais online"
       description: "Lula Rocha apresenta sua experiência no desenvolvimento do Site Metapix que oferece um serviço de cursos e tutoriais online sobre ferramentas de design gráfico e manipulação de imagens. Como surgiu a ideia, como foi o processo de planejamento e design inicial, como o site vem sendo melhorado, como o conteúdo é desenvolvido e os desafios para os próximos anos são alguns exemplos de tópicos que serão abordados."
@@ -137,6 +147,7 @@ schedule:
       github: "http://github.com/pedrofranceschi"
       twitter: "https://twitter.com/pedroh96"
       linkedin: "http://www.linkedin.com/profile/view?id=52346147"
+      palestra: "/palestras/HDC-palestra-pedro_Fraschesci.pdf"
     presentation:
       title: "Por que você deve aprender Vim hoje."
       description: "Uns o amam, muitos o odeiam, mas uma coisa é certa: quem usa o Vim não consegue voltar para um editor de texto diferente. Utilizar um editor de 20 anos de idade e sem interface gráfica pode parecer um absurdo em 2013, mas acredite: há excelentes motivos para cada vez mais pessoas abandonarem o TextMate e o SublimeText e (re)começarem com o Vim. Aprenda porque e como utilizá-lo do zero, assim como torná-lo mais usável e ficar estupidamente produtivo ao programar. Mas tome cuidado: once you go Vim, you'll never go back. Eu avisei, hein?.. :P"
@@ -154,6 +165,7 @@ schedule:
       site: http://www.alexandrebenitah.com/"
       facebook: "https://www.facebook.com/alexandrebenitah?fref=ts"
       linkedin: "http://www.linkedin.com/pub/alexandre-benitah/28/9b3/a53"
+      palestra: "FAFAFAF"
     presentation:
       title: "Como gerar uma melhor experiência de uso? Entenda as necessidades do usuário!"
       description: "Você sabe quais problemas os usuários enfrentam usando seu produto? Sabe quais as necessidades reais deles? Sabe o que faz eles desistirem de usar? Provavelmente não =D, mas existem algumas técnicas de pesquisa e arquitetura da informação que podem facilitar a vida dele tornando o seu produto muito melhor.Conheça algumas técnicas aplicadas no fluxo de cadastro da rede social Estou Jogando e como os resultados dessas técnicas melhoraram a experiência de uso deste processo."
@@ -168,6 +180,7 @@ schedule:
       blog: "http://klauswuestefeld.blogspot.com.br/"
       facebook: "https://www.facebook.com/klauswuestefeld"
       github: "https://github.com/klauswuestefeld"
+      palestra: "/palestras/HDC-palestra-klaus.pdf"
     presentation:
       title: "Bem-Vindo à Computação Soberana, à Queda do Google e ao Fim do Facebook"
       description: "Usuários de Software Livre ou não, todos não passavam de súditos. Subjugados por um punhado de autoridades da internet, conformavam-se às leis arbitrárias, ditadas por elas. Aí, as pessoas cansaram dessa palhaçada. Decidiram que seriam livres para compartilhar informação e recursos de hardware com seus amigos, da forma como bem entendessem. Essa liberdade ficou conhecida como computação soberana."

@@ -12,9 +12,7 @@
         <li class="speakers-item">
           <span class="speaker-photo"><img class="photo" src="./img/palestrantes/{{ speaker.photo }}" alt="{{ speaker.name }}" /></span>
 
-
-         
-          <h3 class="speech-title">
+           <h3 class="speech-title">
             {% if speaker.presentation.time %}
               <span class="speech-time">{{ speaker.presentation.time }}</span>
             {% endif %}
@@ -27,9 +25,21 @@
             <span class="speech-title">{{ speaker.presentation.title }}
           </div>
 
+
+
             <div class="description">
             <span class="speech-presentation">{{ speaker.presentation.description }}
           </div>
+
+         
+
+          <div class="palestra">
+            <span class = "speech-presentation">{{speaker.palestra}}
+          </div>
+
+
+
+
 
 
           <p>
@@ -48,17 +58,21 @@
             {% endif %}
             {% if speaker.links.twitter %}
               <a href="{{ speaker.links.twitter }}" target="_blank">Twitter</a> &#8226; 
-            {% endif %}
+              {% endif %}
             {% if speaker.links.slideshare %}
               <a href="{{ speaker.links.slideshare }}" target="_blank">SlideShare</a> &#8226; 
             {% endif %}
             {% if speaker.links.github %}
               <a href="{{ speaker.links.github }}" target="_blank">Github</a> &#8226; 
+              {% endif %}
+            {% if speaker.links.palestra %}
+              <a href="{{ speaker.links.palestra }}" target="_blank">Palestra</a> &#8226; 
             {% endif %}
             {% if speaker.links.behance %}
               <a href="{{ speaker.links.behance }}" target="_blank">Behance</a> &#8226; 
             {% endif %}
             <br />
+            
             {% if speaker.links2.site %}
               &#8226;
               <a href="{{ speaker.links2.site }}" target="_blank">Site</a> &#8226; 
@@ -79,14 +93,20 @@
               <a href="{{ speaker.links2.slideshare }}" target="_blank">SlideShare</a> &#8226; 
             {% endif %}
             {% if speaker.links2.github %}
-              <a href="{{ speaker.links2.github }}" target="_blank">Github</a> &#8226; 
+              <a href="{{ speaker.links2.github }}" target="_blank">Github</a> &#8226;
+              {% endif %}
+            {% if speaker.links2.palestra %}
+              <a href="{{ speaker.links2.palestra }}" target="_blank">Palestra</a> &#8226; 
             {% endif %}
             <section class="shedule">
             {% if speaker.links2.behance %}
               <a href="{{ speaker.links2.behance }}" target="_blank">Behance</a> &#8226; 
+              
+
             {% endif %}
 
         </li>
+
 
       {% endif %}
     {% endfor %}
