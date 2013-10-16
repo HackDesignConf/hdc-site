@@ -46,29 +46,26 @@ schedule:
     name: "Sylvestre Mergulhão e Rafael Lima"
     time: "9h"
     photo: "syvestreerafa.png"
-    bio: "<strong>Sylvestre Mergulhão</strong> é programador web e fundador da HE:labs. <a href='/palestras/HDC-palestra-rafael_lima-e-sylvestre_mergulhao.pdf'>Download da Palestra</a>  <br /> <br /> <strong>Rafael Lima</strong> é  empreendedor e desenvolvedor web. Fundador da BielSystems, co-fundador da HE:labs e do Startup DEV. <a href='/palestras/HDC-palestra-rafael_lima-e-sylvestre_mergulhao.pdf'>Download da Palestra</a>"
+    bio: "<strong>Sylvestre Mergulhão</strong> é programador web e fundador da HE:labs. <br /> <br /> <strong>Rafael Lima</strong> é  empreendedor e desenvolvedor web. Fundador da BielSystems, co-fundador da HE:labs e do Startup DEV."
     links:
       twitter: "https://twitter.com/smergulhao"
       facebook: "https://www.facebook.com/sylvestre.mergulhao?fref=ts"
       github: "https://github.com/mergulhao?source=cc"
       site: "http://mergulhao.info/"
-      
-      
     links2:
       twitter: "https://twitter.com/rafaelp"
       github: "https://github.com/rafaelp?source=cc"
       slideshare: "http://www.slideshare.net/rafael_lima"
       site: "http://rafael.adm.br/"
-    
-
     presentation:
       title: "Valorize-se! Como crescer profissionalmente e trabalhar em um ambiente melhor"
       description: "Nesta breve palestra Mergulhão e Rafael irão dar dicas sobre como um profissional de tecnologia pode crescer, ser melhor e por consequência ganhar mais dinheiro trabalhando com o que gosta. O foco da palestra não é negócios, mas sim como se tornar um profissional melhor e mais valorizado, quais são as pequenas coisas que podem mudar seu patamar de vida, como fazer seu marketing pessoal e como hackear o sistema em prol de um ambiente melhor. Útil para todos os programadores e designers que trabalham com web."
+      lecture: "<a href='../lectures/HDC-palestra-rafael_lima-e-sylvestre_mergulhao.pdf'>Download da Palestra</a>"
   -
     time: "9h50"
     name: "Emilio Cini Simoni"
     photo: "emilio.png"
-    bio: "Emilio é desenvolvedor de software há 16 anos, especialista em segurança da informação. Trabalha como diretor de pesquisa e inovação na GAS Tecnologia há 10 anos especificamente na área de combate a fraude contra internet banking. <a href= 'http://prezi.com/o3srfwusoetu/?utm_campaign=share&utm_medium=copy'>Download da Palestra</a>"
+    bio: "Emilio é desenvolvedor de software há 16 anos, especialista em segurança da informação. Trabalha como diretor de pesquisa e inovação na GAS Tecnologia há 10 anos especificamente na área de combate a fraude contra internet banking."
     company: "GAS Tecnologia"
     links:
       linkedin: "http://www.linkedin.com/pub/emilio-simoni/10/9a6/242"
@@ -76,11 +73,12 @@ schedule:
     presentation:
       title: "Ecossistema Underground"
       description: "Como surgem os bankers, como são formadas as quadrilhas, sistemas de fraude, mercado negro, meios de comunicação e analise macro de fraudes."
+      lecture: "<a href= 'http://prezi.com/o3srfwusoetu/?utm_campaign=share&utm_medium=copy'>Download da Palestra</a>"
   -
     time: "10h40"
     name: "Victor Montalvão"
     photo: "victor.png"
-    bio: "Victor é Designer com foco em experiência do usuário e especialista em usabilidade pela PUC-Rio. Atuando no mercado desde 2003, participou de diversos projetos digitais para empresas e instituições no Brasil, Canadá e Austrália. Atualmente integra o time de UX na área de Novas Mídias da Globosat, atuando em projetos para mobile, web, smart tvs e consoles de games. <a href='/palestras/HDC-palestra-victor_montalvao.pdf'>Download Palestra</a>"
+    bio: "Victor é Designer com foco em experiência do usuário e especialista em usabilidade pela PUC-Rio. Atuando no mercado desde 2003, participou de diversos projetos digitais para empresas e instituições no Brasil, Canadá e Austrália. Atualmente integra o time de UX na área de Novas Mídias da Globosat, atuando em projetos para mobile, web, smart tvs e consoles de games."
     company: "Globosat"
     links:
       linkedin: "http://www.linkedin.com/in/victormontalvao"
@@ -88,11 +86,12 @@ schedule:
     presentation:
       title: "Do papel ao usuário: boas experiências são projetadas a 4 mãos"
       description: 'Que desenvolvedor nunca se revoltou com as "pirações" daquele designer loucão que só faz "firulas"? E que designer nunca se revoltou com aquele "NÃO" bem sonoro de um desenvolvedor se recusando a implementar alguma coisa super legal que todos os sites gringos estão usando? Dura realidade nossa de todos os dias... Mas, e o usuário, onde fica nessa história? Estamos projetando/desenvolvendo soluções realmente funcionais para ele? Afinal, é para satisfazer a esse cara que trabalhamos, correto?Que tal, juntos, fazermos uma reflexão sobre nossas atitudes enquanto profissionais de tecnologia e pensarmos (de coração) em como unir forças em prol de uma web melhor, com experiências impactantes e verdadeiramente boas para quem realmente interessa, o usuário.'
+      lecture: "<a href='/lectures/HDC-palestra-victor_montalvao.pdf'>Download Palestra</a>"
   -
     time: "11h30"
     name: "Flavia Fortes e Mauro George"
     photo: "flaviaemauro.png"
-    bio: " <strong>Flavia</strong> desenvolve em Ruby on Rails com foco em TDD, Boas Práticas e Desenvolvimento Ágil. Atualmente trabalha na HE:labs e nas horas vagas gosta de assistir a filmes do Akira Kurosawa e jogar League of Legends. <a href='/palestras/HDC-palestra-flavia_fortes-e-mauro_george.pdf'>Download da Palestra</a> <br /> <br /> <strong>Mauro</strong> participa de um time ágil na HE:labs, onde aplica eXtreme Programming no seu dia a dia, desenvolvendo soluções em Ruby/Rails. Nas horas vagas contribui em projetos Open source. E ainda, é apaixonado por Video games e é sócio do Estou Jogando, a maior rede social de Games do Brasil. <a href='/palestras/HDC-palestra-flavia_fortes-e-mauro_george.pdf'>Download da Palestra</a>"
+    bio: " <strong>Flavia</strong> desenvolve em Ruby on Rails com foco em TDD, Boas Práticas e Desenvolvimento Ágil. Atualmente trabalha na HE:labs e nas horas vagas gosta de assistir a filmes do Akira Kurosawa e jogar League of Legends. </a> <br /> <br /> <strong>Mauro</strong> participa de um time ágil na HE:labs, onde aplica eXtreme Programming no seu dia a dia, desenvolvendo soluções em Ruby/Rails. Nas horas vagas contribui em projetos Open source. E ainda, é apaixonado por Video games e é sócio do Estou Jogando, a maior rede social de Games do Brasil."
     company: "HE:labs"
     links:
       twitter: "https://twitter.com/FlaFortes"
@@ -111,6 +110,7 @@ schedule:
     presentation:
       title: "O cliente e o time juntos por um só objetivo!"
       description: "Por que investir em times multidisciplinares? Qual a importância de manter uma boa comunicação entre o time e o cliente? Onde começa e termina o papel do cliente no projeto? Por que o time deve quebrar e pontuar tarefas conjuntamente? Qual a importância de desenhar as telas junto ao cliente? Por que o código deve ser coletivo? Qual é a importância das retrospectivas? Por que testes automatizados e integração contínua são indispensáveis para o projeto? Mostraremos um pouco de como lidamos com agile no dia-a-dia da HE:labs."
+      lecture: "<a href='/lectures/HDC-palestra-flavia_fortes-e-mauro_george.pdf'>Download da Palestra</a>" 
   -
     name: "Almoço"
     time: "12h15"
@@ -118,7 +118,7 @@ schedule:
     time: "13h50"
     name: "Lula Rocha"
     photo: "lula.png"
-    bio: "Designer com 20 anos de experiência em Identidade Visual, Produção Gráfica, Tratamento de Imagem, Desenho Vetorial e Webdesign. Formado em Comunicação Visual e Desenho Industrial pela PUC-Rio. Mestre em Design pela Central Saint Martins College of Art & Design. Professor das disciplinas de Projeto, Criação e Tratamento de Imagens do Departamento de Artes & Design da PUC-Rio desde 1991. Professor da Pós-graduação em Design de Estamparia do SENAI/CETIQT-RJ. <a href='/palestras/HDC-palestra-lula_Rocha.pdf'>Download da Palestra</a>"
+    bio: "Designer com 20 anos de experiência em Identidade Visual, Produção Gráfica, Tratamento de Imagem, Desenho Vetorial e Webdesign. Formado em Comunicação Visual e Desenho Industrial pela PUC-Rio. Mestre em Design pela Central Saint Martins College of Art & Design. Professor das disciplinas de Projeto, Criação e Tratamento de Imagens do Departamento de Artes & Design da PUC-Rio desde 1991. Professor da Pós-graduação em Design de Estamparia do SENAI/CETIQT-RJ."
     company: "Metapix"
     links:
       twitter: "https://twitter.com/lularocha"
@@ -128,11 +128,12 @@ schedule:
     presentation:
       title: "Metapix - Soluções e desafios na construção de um site de cursos e tutoriais online"
       description: "Lula Rocha apresenta sua experiência no desenvolvimento do Site Metapix que oferece um serviço de cursos e tutoriais online sobre ferramentas de design gráfico e manipulação de imagens. Como surgiu a ideia, como foi o processo de planejamento e design inicial, como o site vem sendo melhorado, como o conteúdo é desenvolvido e os desafios para os próximos anos são alguns exemplos de tópicos que serão abordados."
+      lecture: "<a href='/lectures/HDC-palestra-lula_Rocha.pdf'> Download da Palestra </a>"
   -
     time: "14h40"
     name: "Pedro Franceschi"
     photo: "franceschi.png"
-    bio: "Pedro é desenvolvedor de software desde os 14 anos de idade e já palestrou em diversos eventos, dentre eles o TEDxSudeste. Foi o responsável por ensinar o Siri, aplicativo de voz do iPhone a falar Português.palestra: <a href='/palestras/HDC-palestra-pedro_Fraschesci.pdf'>Download da Palestra</a>"
+    bio: "Pedro é desenvolvedor de software desde os 14 anos de idade e já palestrou em diversos eventos, dentre eles o TEDxSudeste. Foi o responsável por ensinar o Siri, aplicativo de voz do iPhone a falar Português.palestra:"
     company: "M4U"
     links:
       site: "http://www.pedrofranceschi.com/"
@@ -140,10 +141,11 @@ schedule:
       github: "http://github.com/pedrofranceschi"
       twitter: "https://twitter.com/pedroh96"
       linkedin: "http://www.linkedin.com/profile/view?id=52346147"
-     
     presentation:
       title: "Por que você deve aprender Vim hoje."
       description: "Uns o amam, muitos o odeiam, mas uma coisa é certa: quem usa o Vim não consegue voltar para um editor de texto diferente. Utilizar um editor de 20 anos de idade e sem interface gráfica pode parecer um absurdo em 2013, mas acredite: há excelentes motivos para cada vez mais pessoas abandonarem o TextMate e o SublimeText e (re)começarem com o Vim. Aprenda porque e como utilizá-lo do zero, assim como torná-lo mais usável e ficar estupidamente produtivo ao programar. Mas tome cuidado: once you go Vim, you'll never go back. Eu avisei, hein?.. :P"
+      lecture: "<a href='/lectures/HDC-palestra-pedro_Fraschesci.pdf'>Download da Palestra</a>"
+
   -
     name: "Cofee Break"
     time: "15h30"
@@ -158,7 +160,6 @@ schedule:
       site: http://www.alexandrebenitah.com/"
       facebook: "https://www.facebook.com/alexandrebenitah?fref=ts"
       linkedin: "http://www.linkedin.com/pub/alexandre-benitah/28/9b3/a53"
-    
     presentation:
       title: "Como gerar uma melhor experiência de uso? Entenda as necessidades do usuário!"
       description: "Você sabe quais problemas os usuários enfrentam usando seu produto? Sabe quais as necessidades reais deles? Sabe o que faz eles desistirem de usar? Provavelmente não =D, mas existem algumas técnicas de pesquisa e arquitetura da informação que podem facilitar a vida dele tornando o seu produto muito melhor.Conheça algumas técnicas aplicadas no fluxo de cadastro da rede social Estou Jogando e como os resultados dessas técnicas melhoraram a experiência de uso deste processo."
@@ -166,7 +167,7 @@ schedule:
     time: "16h50"
     name: "Klaus Wuestefeld"
     photo: "klaus.png"
-    bio: "Klaus é palestrante em eventos como o Fórum Internacional de Software Livre, a OOPSLA nos EUA, ICOODB em Berlin, DevInSampa, QCon e Agile Brasil. Jogador de Go e chefe escoteiro, ele é pioneiro de Extreme Programming no país e autor do Prevayler, um dos projetos de software livre brasileiros mais conhecidos no exterior. É fundador da Objective Solutions e autor do manifesto da computação soberana. <a href='/palestras/HDC-palestra-klaus.pdf'>Download da Palestra</a>"
+    bio: "Klaus é palestrante em eventos como o Fórum Internacional de Software Livre, a OOPSLA nos EUA, ICOODB em Berlin, DevInSampa, QCon e Agile Brasil. Jogador de Go e chefe escoteiro, ele é pioneiro de Extreme Programming no país e autor do Prevayler, um dos projetos de software livre brasileiros mais conhecidos no exterior. É fundador da Objective Solutions e autor do manifesto da computação soberana."
     company: "Objective Solutions e Sneer"
     links:
       twitter: "https://twitter.com/klauswuestefeld/"
@@ -176,6 +177,7 @@ schedule:
     presentation:
       title: "Bem-Vindo à Computação Soberana, à Queda do Google e ao Fim do Facebook"
       description: "Usuários de Software Livre ou não, todos não passavam de súditos. Subjugados por um punhado de autoridades da internet, conformavam-se às leis arbitrárias, ditadas por elas. Aí, as pessoas cansaram dessa palhaçada. Decidiram que seriam livres para compartilhar informação e recursos de hardware com seus amigos, da forma como bem entendessem. Essa liberdade ficou conhecida como computação soberana."
+      lecture: "<a href='/lectures/HDC-palestra-klaus.pdf'>Download da Palestra</a>"
   -
     name: "Encerramento"
     time: "17h40"

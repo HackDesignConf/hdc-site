@@ -20,28 +20,6 @@
 
           <h3 class="speakers-name">{{ speaker.name }}</h3>
           <p class="speakers-bio">{{ speaker.bio }}</p>
-            <div class="palestra">
-            <span class = "speech-presentation">{{speaker.palestra}}
-          </div>
-
-          
-          <div class="title">
-            <span class="speech-title">{{ speaker.presentation.title }}
-          </div>
-
-
-
-            <div class="description">
-            <span class="speech-presentation">{{ speaker.presentation.description }}
-          </div>
-
-         
-
-        
-
-
-
-
 
           <p>
             &#8226;
@@ -102,10 +80,22 @@
             <section class="shedule">
             {% if speaker.links2.behance %}
               <a href="{{ speaker.links2.behance }}" target="_blank">Behance</a> &#8226; 
-              
-
             {% endif %}
+            
+          
+          <div class="title">
+            <span class="speech-title">{{ speaker.presentation.title }}
+          </div>
 
+
+
+          <div class="description">
+            <span class="speech-presentation">{{ speaker.presentation.description }}
+          </div>
+
+          <div class="lecture">
+            <span class = "speech-lecture">{{speaker.presentation.lecture}}
+          </div>
         </li>
 
 
