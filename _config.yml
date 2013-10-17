@@ -61,7 +61,7 @@ schedule:
       title: "Valorize-se! Como crescer profissionalmente e trabalhar em um ambiente melhor"
       description: "Nesta breve palestra Mergulhão e Rafael irão dar dicas sobre como um profissional de tecnologia pode crescer, ser melhor e por consequência ganhar mais dinheiro trabalhando com o que gosta. O foco da palestra não é negócios, mas sim como se tornar um profissional melhor e mais valorizado, quais são as pequenas coisas que podem mudar seu patamar de vida, como fazer seu marketing pessoal e como hackear o sistema em prol de um ambiente melhor. Útil para todos os programadores e designers que trabalham com web."
       lecture: "<a href='../lectures/HDC-palestra-rafael_lima-e-sylvestre_mergulhao.pdf'>Download da Palestra</a>"
-      image: "<img src='/lectures/print/rafaesylvestre.png'>"
+      image: "<a href='../lectures/HDC-palestra-rafael_lima-e-sylvestre_mergulhao.pdf'><img src='/lectures/print/rafaesylvestre.png'></a>"
   -
     time: "9h50"
     name: "Emilio Cini Simoni"
@@ -75,7 +75,7 @@ schedule:
       title: "Ecossistema Underground"
       description: "Como surgem os bankers, como são formadas as quadrilhas, sistemas de fraude, mercado negro, meios de comunicação e analise macro de fraudes."
       lecture: "<a href= 'http://prezi.com/o3srfwusoetu/?utm_campaign=share&utm_medium=copy'>Download da Palestra</a>"
-      image: "<img src='/lectures/print/emilio.png'>"
+      image: "<a href= 'http://prezi.com/o3srfwusoetu/?utm_campaign=share&utm_medium=copy'><img src='/lectures/print/emilio.png'></a>"
   -
     time: "10h40"
     name: "Victor Montalvão"
@@ -89,7 +89,7 @@ schedule:
       title: "Do papel ao usuário: boas experiências são projetadas a 4 mãos"
       description: 'Que desenvolvedor nunca se revoltou com as "pirações" daquele designer loucão que só faz "firulas"? E que designer nunca se revoltou com aquele "NÃO" bem sonoro de um desenvolvedor se recusando a implementar alguma coisa super legal que todos os sites gringos estão usando? Dura realidade nossa de todos os dias... Mas, e o usuário, onde fica nessa história? Estamos projetando/desenvolvendo soluções realmente funcionais para ele? Afinal, é para satisfazer a esse cara que trabalhamos, correto?Que tal, juntos, fazermos uma reflexão sobre nossas atitudes enquanto profissionais de tecnologia e pensarmos (de coração) em como unir forças em prol de uma web melhor, com experiências impactantes e verdadeiramente boas para quem realmente interessa, o usuário.'
       lecture: "<a href='/lectures/HDC-palestra-victor_montalvao.pdf'>Download Palestra</a>"
-      image: "<img src='/lectures/print/victor.png'>"
+      image: "<a href='/lectures/HDC-palestra-victor_montalvao.pdf'><img src='/lectures/print/victor.png'></a>"
       
   -
     time: "11h30"
@@ -115,7 +115,7 @@ schedule:
       title: "O cliente e o time juntos por um só objetivo!"
       description: "Por que investir em times multidisciplinares? Qual a importância de manter uma boa comunicação entre o time e o cliente? Onde começa e termina o papel do cliente no projeto? Por que o time deve quebrar e pontuar tarefas conjuntamente? Qual a importância de desenhar as telas junto ao cliente? Por que o código deve ser coletivo? Qual é a importância das retrospectivas? Por que testes automatizados e integração contínua são indispensáveis para o projeto? Mostraremos um pouco de como lidamos com agile no dia-a-dia da HE:labs."
       lecture: "<a href='/lectures/HDC-palestra-flavia_fortes-e-mauro_george.pdf'>Download da Palestra</a>"
-      image: "<img src='/lectures/print/flaviaemauro.png'>"
+      image: "<a href='/lectures/HDC-palestra-flavia_fortes-e-mauro_george.pdf'><img src='/lectures/print/flaviaemauro.png'></a>"
   -
     name: "Almoço"
     time: "12h15"
@@ -134,7 +134,7 @@ schedule:
       title: "Metapix - Soluções e desafios na construção de um site de cursos e tutoriais online"
       description: "Lula Rocha apresenta sua experiência no desenvolvimento do Site Metapix que oferece um serviço de cursos e tutoriais online sobre ferramentas de design gráfico e manipulação de imagens. Como surgiu a ideia, como foi o processo de planejamento e design inicial, como o site vem sendo melhorado, como o conteúdo é desenvolvido e os desafios para os próximos anos são alguns exemplos de tópicos que serão abordados."
       lecture: "<a href='/lectures/HDC-palestra-lula_Rocha.pdf'> Download da Palestra </a>"
-      image: "<img src='/lectures/print/lula.png'>"
+      image: "<a href='/lectures/HDC-palestra-lula_Rocha.pdf'><img src='/lectures/print/lula.png'></a>"
   -
     time: "14h40"
     name: "Pedro Franceschi"
@@ -151,7 +151,7 @@ schedule:
       title: "Por que você deve aprender Vim hoje."
       description: "Uns o amam, muitos o odeiam, mas uma coisa é certa: quem usa o Vim não consegue voltar para um editor de texto diferente. Utilizar um editor de 20 anos de idade e sem interface gráfica pode parecer um absurdo em 2013, mas acredite: há excelentes motivos para cada vez mais pessoas abandonarem o TextMate e o SublimeText e (re)começarem com o Vim. Aprenda porque e como utilizá-lo do zero, assim como torná-lo mais usável e ficar estupidamente produtivo ao programar. Mas tome cuidado: once you go Vim, you'll never go back. Eu avisei, hein?.. :P"
       lecture: "<a href='/lectures/HDC-palestra-pedro_Fraschesci.pdf'>Download da Palestra</a>"
-      image: "<img src='/lectures/print/pedro.png'>"
+      image: "<a href='/lectures/HDC-palestra-pedro_Fraschesci.pdf'><img src='/lectures/print/pedro.png'></a>"
 
   -
     name: "Cofee Break"
@@ -185,7 +185,7 @@ schedule:
       title: "Bem-Vindo à Computação Soberana, à Queda do Google e ao Fim do Facebook"
       description: "Usuários de Software Livre ou não, todos não passavam de súditos. Subjugados por um punhado de autoridades da internet, conformavam-se às leis arbitrárias, ditadas por elas. Aí, as pessoas cansaram dessa palhaçada. Decidiram que seriam livres para compartilhar informação e recursos de hardware com seus amigos, da forma como bem entendessem. Essa liberdade ficou conhecida como computação soberana."
       lecture: "<a href='/lectures/HDC-palestra-klaus.pdf'>Download da Palestra</a>"
-      image: "<img src='/lectures/print/klaus.png'>"
+      image: "<a href='/lectures/HDC-palestra-klaus.pdf'><img src='/lectures/print/klaus.png'></a>"
   -
     name: "Encerramento"
     time: "17h40"
