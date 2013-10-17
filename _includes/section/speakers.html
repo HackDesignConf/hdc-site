@@ -92,11 +92,18 @@
           <div class="description">
             <span class="speech-presentation">{{ speaker.presentation.description }}
           </div>
+    
 
-          <div class="lecture">
+        <div class="image">
+          <span class="speech-image" style="border-radius: 100px;"> {{speaker.presentation.image}}
+          </div>
+
+           <div class="lecture">
             <span class = "speech-lecture">{{speaker.presentation.lecture}}
           </div>
-        </li>
+
+      </li>
+
 
 
       {% endif %}
