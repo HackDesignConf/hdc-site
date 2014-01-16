@@ -176,6 +176,9 @@ schedule:
     presentation:
       title: "Como gerar uma melhor experiência de uso? Entenda as necessidades do usuário!"
       description: "Você sabe quais problemas os usuários enfrentam usando seu produto? Sabe quais as necessidades reais deles? Sabe o que faz eles desistirem de usar? Provavelmente não =D, mas existem algumas técnicas de pesquisa e arquitetura da informação que podem facilitar a vida dele tornando o seu produto muito melhor.Conheça algumas técnicas aplicadas no fluxo de cadastro da rede social Estou Jogando e como os resultados dessas técnicas melhoraram a experiência de uso deste processo."
+      lecture: "<a href='/lectures/HDC-palestra-beni.pdf'>Download da Palestra</a>"
+      image: "<a href='/lectures/HDC-palestra-beni.pdf'><img src='/lectures/print/beni.png'></a>"
+      movie: "<a href='http://www.youtube.com/watch?v=mPbFqOsWOCE'><img src='/movie/beni.png'>Video da Palestra</a> "
   -
     time: "16h50"
     name: "Klaus Wuestefeld"
